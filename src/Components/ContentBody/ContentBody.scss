@@ -4,11 +4,17 @@
 	text-align: center;
 	margin: 50px 30px;
 	color: $black;
+	font-size: 22px;
 }
 
-#top-line, 
+#top-line {
+	color: $blue;
+	font-size: 32px;
+}
+
 #bottom-line {
 	color: $blue;
-}
+	font-size: 26px;
 
+}
 

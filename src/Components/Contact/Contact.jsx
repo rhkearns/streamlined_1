@@ -19,13 +19,31 @@ const Contact = () => {
 						on your needs. Set up your sonsultation today to get started!
 					</p>
 					<p>
-						Contact us by filling out the form below or emailing us at
-						info@streamlinedpartners.com
+						Contact us by filling out the{' '}
+						<a
+							href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							{' '}
+							form here
+						</a>{' '}
+						or emailing us at{' '}
+						<a
+							href="mailto:info@streamlinedpartners.com"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							{' '}
+							info@streamlinedpartners.com
+						</a>
 					</p>
 				</div>
-      </div>
+			</div>
 		</div>
 	);
 };
 
 export default Contact;
+
+// src="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
