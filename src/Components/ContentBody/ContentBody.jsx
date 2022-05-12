@@ -9,13 +9,10 @@ const ContentBody = () => {
 				success and stay on track
 			</h2>
 			<p>
-				Streamlined Partners is your full service logistics and operations
-				resource. We are your on demand COO, ready to come in and help you move
-				forwad in all areas of systemization, technology, and project
-				management.
+				Streamlined Partners is here to assist you in moving forward in all areas of systemization, strategizing, and accountability. We specialize in project management and organization.
 			</p>
 			<p>
-				We can show you how to adjust and move forward to make the best of your
+				We will show you how to adjust and move forward to make the best of your
 				resources, budget, and talent.
 			</p>
 			{/* <hr className="line" /> */}

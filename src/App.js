@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Nav />
       <ContentBody />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <BottomNav />
       <Footer />
