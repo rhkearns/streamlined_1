@@ -1,5 +1,9 @@
 @import '../../common/colors.scss';
 
+.line {
+	border-top: 1px solid $blue;
+}
+
 #content {
 	text-align: center;
 	margin: 50px 30px;
@@ -13,8 +17,69 @@
 }
 
 #bottom-line {
-	color: $blue;
+	color: $yellow;
 	font-size: 26px;
-
 }
 
+// .services {
+// 	text-align: left;
+// }
+
+.services {
+	text-align: left;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: 15px;
+
+	ul {
+		list-style-type: circle;
+	}
+}
+
+#systemization {
+	border: 2px solid $yellow;
+	border-radius: 5px;
+	padding: 15px 0 0 25px;
+
+	h5 {
+		color: $blue;
+		font-size: 22px;
+		margin: 15px 0;
+	}
+}
+
+#strategizing {
+	border: 2px solid $yellow;
+	border-radius: 5px;
+	padding: 15px 0 0 25px;
+
+	h5 {
+		color: $blue;
+		font-size: 22px;
+		margin: 15px 0;
+	}
+}
+
+#onboarding {
+	border: 2px solid $yellow;
+	border-radius: 5px;
+	padding: 15px 0 0 25px;
+
+	h5 {
+		color: $blue;
+		font-size: 22px;
+		margin: 15px 0;
+	}
+}
+
+#accountability {
+	border: 2px solid $yellow;
+	border-radius: 5px;
+	padding: 15px 0 0 25px;
+
+	h5 {
+		color: $blue;
+		font-size: 22px;
+		margin: 15px 0;
+	}
+}
