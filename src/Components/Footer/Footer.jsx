@@ -7,8 +7,12 @@ const Footer = () => {
 	return (
 		<div id="footer">
 			<div id="icons">
-				<FontAwesomeIcon icon={faInstagram} />
-				<FontAwesomeIcon icon={faLinkedin} />
+				<a href="https://www.instagram.com/streamlined_partners">
+					<FontAwesomeIcon icon={faInstagram} />
+				</a>
+				<a href="https://www.linkedin.com/company/streamlined-partners/about/">
+					<FontAwesomeIcon icon={faLinkedin} />
+				</a>
 			</div>
 			<div className="blurb">
 				<p id="line1">Based in New York, NY</p>

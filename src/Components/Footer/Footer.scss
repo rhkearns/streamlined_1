@@ -30,9 +30,13 @@
 	display: flex;
 	gap: 5px;
 	margin-bottom: 0;
+
+	a {
+		color: $black;
+	}
 }
 
 #bar {
 	height: 5px;
-  background-image: radial-gradient($blue 5%, $yellow 15%, $blue 65%);
+	background-image: radial-gradient($blue 5%, $yellow 15%, $blue 65%);
 }
