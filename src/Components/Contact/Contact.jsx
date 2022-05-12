@@ -24,20 +24,6 @@ const Contact = () => {
 					</p>
 				</div>
       </div>
-      <form action="" className='contact-form'>
-        <div id="form-name">
-          <label htmlFor="name">Name *</label><br />
-          <input type="text" name="name" id="name"/>
-        </div>
-        <div id="form-email">
-          <label htmlFor="email">Email *</label><br />
-          <input type="email" name="email" id="email"/>
-        </div>
-        <div id="form-message">
-          <label htmlFor="message">Message *</label><br />
-          <input type="textbox" name="message" id="message"/>
-        </div>
-      </form>
 		</div>
 	);
 };

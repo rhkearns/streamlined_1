@@ -1,12 +1,33 @@
+@import '../../common/colors.scss';
+
 #footer {
 	margin-top: 100px;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	gap: 40px;
+	gap: 5px;
 	justify-content: center;
+	color: $black;
+}
+
+.blurb {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	text-align: center;
+	font-size: 12px;
+
+	#line2 {
+		margin: 0 0 15px;
+	}
+
+	#line1 {
+		margin: 0;
+	}
 }
 
 #icons {
 	display: flex;
 	gap: 5px;
+	margin-bottom: 0;
 }

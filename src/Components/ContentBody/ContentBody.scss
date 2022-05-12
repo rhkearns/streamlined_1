@@ -1,4 +1,14 @@
+@import '../../common/colors.scss';
+
 #content {
-  text-align: center;
-  margin: 50px 30px;
+	text-align: center;
+	margin: 50px 30px;
+	color: $black;
 }
+
+#top-line, 
+#bottom-line {
+	color: $blue;
+}
+
+
