@@ -55,7 +55,7 @@ const ContentBody = () => {
 				</div>
 				<div id="accountability">
           <h5>Accountability</h5>
-          <ul>We provide you the tools you need to hold yourself and your team accoutable
+          <ul><li>We provide you the tools you need to hold yourself and your team accoutable</li>
 						<li>Keep projects moving</li>
 						<li>Timeline creation</li>
 						<li>Deadline Monitoring</li>
