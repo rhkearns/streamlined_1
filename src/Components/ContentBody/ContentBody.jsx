@@ -11,7 +11,7 @@ const ContentBody = () => {
 			<p>
 				Streamlined Partners is here to assist you in moving forward 
 				in all areas of systemization, strategizing, and accountability. 
-				/*We specialize in project management and organization./*
+				{/* We specialize in project management and organization. */}
 
 			</p>
 			<p>
@@ -24,12 +24,12 @@ const ContentBody = () => {
 				<div id="systemization">
           <h5>Systemization</h5>
           <ul>
-						<li>Domain</li>
-						<li>Website set rp</li>
+						<li>Domain creation</li>
+						<li>Website set up</li>
 						<li>Email/Google Workspace set up</li>
 						<li>Work management software implementation</li>
-						<li>Calendly, other calendar scheduling</li>
-            <li>Financial infrastructure set up</li>
+						<li>Calendar scheduling and syncing</li>
+            {/* <li>Financial infrastructure set up</li> */}
             <li>Full system troublshooting</li>
 					</ul>
 				</div>
@@ -49,16 +49,18 @@ const ContentBody = () => {
           <ul>
 						<li>Assess needs for future hires</li>
 						<li>Assist with job description creation</li>
-						<li>Onboard new hires //in terms of technology and overview of the teams and details that sometimes get missed//</li>
+						<li>Onboard new hires </li>
+						{/* <li>in terms of technology and overview of the teams and details that sometimes get missed</li> */}
 					</ul>
 				</div>
 				<div id="accountability">
           <h5>Accountability</h5>
-          <ul>
+          <ul>We provide you the tools you need to hold yourself and your team accoutable
 						<li>Keep projects moving</li>
+						<li>Timeline creation</li>
 						<li>Deadline Monitoring</li>
-						<li>KPI (key performance indicators) monitoring</li>
-						<li>Giving you the tools you need to hold yourself and your team accoutable</li>
+						<li>KPI monitoring</li>
+						
 					</ul>
 				</div>
 			</div>
