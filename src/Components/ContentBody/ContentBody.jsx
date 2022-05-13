@@ -9,7 +9,10 @@ const ContentBody = () => {
 				success and stay on track
 			</h2>
 			<p>
-				Streamlined Partners is here to assist you in moving forward in all areas of systemization, strategizing, and accountability. We specialize in project management and organization.
+				Streamlined Partners is here to assist you in moving forward 
+				in all areas of systemization, strategizing, and accountability. 
+				/*We specialize in project management and organization./*
+
 			</p>
 			<p>
 				We will show you how to adjust and move forward to make the best of your
@@ -33,9 +36,9 @@ const ContentBody = () => {
 				<div id="strategizing">
           <h5>Strategizing</h5>
           <ul>
-						<li>Figure out what you need</li>
-						<li>Sounding board for ideas</li>
 						<li>Consulting</li>
+						<li>Sounding board for ideas</li>
+						<li>Figure out what you need</li>
 						<li>Research, outreach, and connections</li>
 						<li>Index/directory/catalogue of tech & work management programs to find the best option for you</li>
 						<li>Network of freelancers for specialized projects</li>
@@ -44,9 +47,9 @@ const ContentBody = () => {
 				<div id="onboarding">
           <h5>Onboarding</h5>
           <ul>
-						<li>Work with team to see what you need</li>
+						<li>Assess needs for future hires</li>
 						<li>Assist with job description creation</li>
-						<li>Onboard new hire in terms of technology and overview of the teams and details that sometimes get missed</li>
+						<li>Onboard new hires //in terms of technology and overview of the teams and details that sometimes get missed//</li>
 					</ul>
 				</div>
 				<div id="accountability">
