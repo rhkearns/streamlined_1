@@ -12,10 +12,7 @@ const ContentBody = () => {
 			Whether you are staring a new small business or trying to organize your existing business infrastructure, Streamlined Partners works with you to move forward and make the best of your resources, budget, and talent. We have worked with clients across industries, from Consumer Packaged Good brands, to marketing companies, from musical performance schools to healthcare nonprofits, from photography production companies, to children’s entertainment.
 				{/* We specialize in project management and organization. */}
 			</p>
-			<p>
-				We will show you how to adjust and move forward to make the best of your
-				resources, budget, and talent.
-			</p>
+			
 			{/* <hr className="line" /> */}
 			{/* <h4 id="bottom-line">Full services coming soon!</h4> */}
 			<div className="services">
