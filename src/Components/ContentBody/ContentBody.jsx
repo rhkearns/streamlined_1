@@ -9,8 +9,7 @@ const ContentBody = () => {
 				success and stay on track
 			</h2>
 			<p>
-				Streamlined Partners is here to assist you in moving forward in all
-				areas of systemization, strategizing, and accountability.
+			Whether you are staring a new small business or trying to organize your existing business infrastructure, Streamlined Partners works with you to move forward and make the best of your resources, budget, and talent. We have worked with clients across industries, from Consumer Packaged Good brands, to marketing companies, from musical performance schools to healthcare nonprofits, from photography production companies, to children’s entertainment.
 				{/* We specialize in project management and organization. */}
 			</p>
 			<p>
