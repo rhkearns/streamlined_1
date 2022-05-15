@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='about-section'>
       <div id="about-header">
-        <h1>ABOUT</h1></div>
+        <h1>ABOUT</h1>
       <div id="about-blurb">
         <p> Streamlined Partners is a boutque consulting firm founded by Samantha Yudin. 
       Samantha has over a decade of experience working as a project manager and 
@@ -16,7 +16,9 @@ const About = () => {
       5 years before prior to launching Streamlined Partners. The Streamlined Partners team has been 
       growing with experienced assistants, project managers, and operations managers that are ready to 
       work with you and your business.</p>
-      </div></div>
+      </div>
+      </div>
+      </div>
   );
   }
 
