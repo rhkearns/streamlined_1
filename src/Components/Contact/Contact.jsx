@@ -35,7 +35,7 @@ const Contact = () => {
 							rel="noopener noreferrer"
 						>
 							{' '}
-							info@streamlinedpartners.com
+							info@streamlinedpartners.com.
 						</a>
 					</p>
 				</div>
