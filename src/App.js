@@ -17,7 +17,7 @@ function App() {
       <ContentBody />
       {/* <Testimonials /> */}
       <Contact />
-      {/* <About /> */}
+      <About />
       <BottomNav />
       <Footer />
     </div>
