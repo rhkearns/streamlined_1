@@ -38,10 +38,12 @@ const Contact = () => {
 							info@streamlinedpartners.com.
 						</a>
 					</p>
-					<hr className="line" />
+					
 				</div>
 			</div>
+			<hr className="line" />
 		</div>
+		
 	);
 };
 
