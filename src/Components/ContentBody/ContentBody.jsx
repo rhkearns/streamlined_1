@@ -9,7 +9,12 @@ const ContentBody = () => {
 				success and stay on track
 			</h2>
 			<p>
-			Whether you are staring a new small business or trying to organize your existing business infrastructure, Streamlined Partners work with you to keep you moving forward and make the best of your resources, budget, and talent. We have worked with clients across industries, from consumer packaged good brands to marketing companies, from musical performance schools to healthcare nonprofits. Working with Streamlined Partners is a smart short term investment in your business’ long term goals.
+			Whether you are staring a new small business or trying to organize your existing business 
+			infrastructure, Streamlined Partners will work with you to keep your company moving forward and make 
+			the best of your resources, budget, and talent. We have worked with clients across industries, 
+			from consumer packaged good brands to marketing companies, from musical performance schools to 
+			healthcare nonprofits. Working with Streamlined Partners is a smart short term investment in 
+			your business’ long term goals.
 			</p>
 			<p>We work remotely allowing us to work with companies wherever they are.</p>
 			{' '}
