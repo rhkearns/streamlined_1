@@ -3,7 +3,7 @@ import './Contact.scss';
 
 const Contact = () => {
 	return (
-		<div className='contact-section'>
+		<div className="contact-section">
 			<div id="contact-header">
 				<h1>Contact Us</h1>
 				<div id="contact-blurb">
@@ -38,12 +38,10 @@ const Contact = () => {
 							info@streamlinedpartners.com.
 						</a>
 					</p>
-					
 				</div>
 			</div>
 			<hr className="line" />
 		</div>
-		
 	);
 };
 

@@ -7,7 +7,7 @@ const Testimonials = () => {
 	return (
 		<div id="testimonials">
 			<h1>Testimonials</h1>
-			<Carousel variant='dark'>
+			<Carousel variant="dark">
 				<Carousel.Item>
 					<img className="" src={template} alt="template" />
 				</Carousel.Item>
