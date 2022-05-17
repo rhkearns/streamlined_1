@@ -35,27 +35,32 @@ const ContentBody = () => {
 				<div id="systemization">
 					<h5>Systemization</h5>
 					<ul>
-						<li>Domain creation</li>
-						<li>Website set up</li>
-						<li>Email/Google Workspace set up</li>
+						{/* <li>Domain creation</li> */}
+						<li>Create a digital workspace</li>
+						{/* <li>Website set up</li> */}
+						<li>Domain creation and custom email set up</li>
+						{/* <li>Email/Google Workspace set up</li> */}
+						<li>Website and social media connections</li>
 						<li>Work management software implementation</li>
 						<li>Calendar scheduling and syncing</li>
-						{/* <li>Financial infrastructure set up</li> */}
-						<li>Full system troublshooting</li>
+						<li>Full system troubleshooting</li>
 					</ul>
 				</div>
 				<div id="strategizing">
 					<h5>Strategizing</h5>
 					<ul>
-						<li>Consulting</li>
-						<li>Sounding board for ideas</li>
-						<li>Figure out what you need</li>
-						<li>Research, outreach, and connections</li>
+						{/* <li>Consulting</li> */}
+						<li>Brainstorming sessions</li>
+						<li>Resources to elevate your administrative workload</li>
+						<li>Organization methods to alleviate obstacles</li>
+					{/* <li>Orgnaized frameworks to keep operations running smoothly</li> */}
+						{/* <li>Sounding board for ideas</li> */}
+						{/* <li>Figure out what you need</li> */}
+						{/* <li>Research, outreach, and connections</li> */}
 						<li>
-							Index/directory/catalogue of tech & work management programs to
-							find the best option for you
+							Catalogue of technology options tailored to your bussiness
 						</li>
-						<li>Network of freelancers for specialized projects</li>
+						<li>Researched network of freelancers for specialized projects</li>
 					</ul>
 				</div>
 				<div id="onboarding">
@@ -63,21 +68,19 @@ const ContentBody = () => {
 					<ul>
 						<li>Assess needs for future hires</li>
 						<li>Assist with job description creation</li>
-						<li>Onboard new hires </li>
-						{/* <li>in terms of technology and overview of the teams and details that sometimes get missed</li> */}
+						<li>Provide new hires with systems to make the transition run smoothly </li>
 					</ul>
 				</div>
 				<div id="accountability">
 					<h5>Accountability</h5>
 					<ul>
-						<li>
-							We provide you the tools you need to hold yourself and your team
-							accoutable
-						</li>
-						<li>Keep projects moving</li>
+						{/* <li>We provide you the tools you need to hold yourself and your team accountable</li> */}
+						{/* <li>Keep projects moving</li> */}
 						<li>Timeline creation</li>
+						<li>Objective setting</li>
 						<li>Deadline Monitoring</li>
-						<li>KPI monitoring</li>
+						<li>Goal markers and check ins</li>
+						{/* <li>KPI monitoring</li> */}
 					</ul>
 				</div>
 			</div>
