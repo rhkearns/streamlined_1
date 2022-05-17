@@ -2,6 +2,9 @@
 
 .about-section {
 	padding: 20px 15px;
+	background-color: $blue-transparent;
+	margin: 5px 15px;
+	border-radius: 5px;
 }
 
 #about-header {
@@ -12,7 +15,7 @@
 #about-blurb {
 	color: $black;
 	font-size: 18px;
-	text-align: center;
+	text-align: justify;
 	margin: 18px 30px;
 }
 
