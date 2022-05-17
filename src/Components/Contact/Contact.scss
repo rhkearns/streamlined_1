@@ -12,11 +12,8 @@
 #contact-header {
 	color: $blue;
 	text-align: left;
-
-	h1 {
-		margin: 0 0 8px;
-		font-size: 32px;
-	}
+	margin: 0 0 8px;
+	font-size: 32px;
 }
 
 #contact-blurb {
@@ -34,7 +31,7 @@ a {
 		flex-direction: row;
 	}
 
-	#contact-header > h1 {
+	#contact-header {
 		margin: 0 15px 0;
 		font-size: 32px;
 	}
@@ -43,6 +40,4 @@ a {
 		margin: 0 15px 0;
 		text-align: justify;
 	}
-
-
 }
