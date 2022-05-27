@@ -9,10 +9,10 @@ const ContentBody = () => {
 				success and stay on track
 			</h2>
 			<p>
-				Whether you are staring a new small business or trying to organize your
+				Whether you are starting a new small business or trying to organize your
 				existing business infrastructure, Streamlined Partners will work with
 				you to keep your company moving forward and make the best of your
-				resources, budget, and talent. We have worked with clients across
+				resources, budget, and talent. We have experience working with clients across
 				industries, from consumer packaged good brands to marketing companies,
 				from musical performance schools to healthcare nonprofits. Working with
 				Streamlined Partners is a smart short term investment in your business’
@@ -30,16 +30,12 @@ const ContentBody = () => {
 				Contact Us
 			</a>{' '}
 			<hr className="line" />
-			{/* <h4 id="bottom-line">Full services coming soon!</h4> */}
 			<div className="services">
 				<div id="systemization">
 					<h5>Systemization</h5>
 					<ul>
-						{/* <li>Domain creation</li> */}
 						<li>Create a digital workspace</li>
-						{/* <li>Website set up</li> */}
 						<li>Domain creation and custom email set up</li>
-						{/* <li>Email/Google Workspace set up</li> */}
 						<li>Website and social media connections</li>
 						<li>Work management software implementation</li>
 						<li>Calendar scheduling and syncing</li>
@@ -49,17 +45,10 @@ const ContentBody = () => {
 				<div id="strategizing">
 					<h5>Strategizing</h5>
 					<ul>
-						{/* <li>Consulting</li> */}
 						<li>Brainstorming sessions</li>
 						<li>Resources to elevate your administrative workload</li>
 						<li>Organization methods to alleviate obstacles</li>
-					{/* <li>Orgnaized frameworks to keep operations running smoothly</li> */}
-						{/* <li>Sounding board for ideas</li> */}
-						{/* <li>Figure out what you need</li> */}
-						{/* <li>Research, outreach, and connections</li> */}
-						<li>
-							Catalogue of technology options tailored to your bussiness
-						</li>
+						<li>Catalogue of technology options tailored to your business</li>
 						<li>Researched network of freelancers for specialized projects</li>
 					</ul>
 				</div>
@@ -74,13 +63,10 @@ const ContentBody = () => {
 				<div id="accountability">
 					<h5>Accountability</h5>
 					<ul>
-						{/* <li>We provide you the tools you need to hold yourself and your team accountable</li> */}
-						{/* <li>Keep projects moving</li> */}
 						<li>Timeline creation</li>
 						<li>Objective setting</li>
 						<li>Deadline Monitoring</li>
 						<li>Goal markers and check ins</li>
-						{/* <li>KPI monitoring</li> */}
 					</ul>
 				</div>
 			</div>
