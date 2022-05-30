@@ -6,11 +6,11 @@ const ContentBody = () => {
 	return (
 		<div id="content">
 			<div id="pitch">
+				<img src={stock_test} alt="test-img" id="test-img" />
 				<h2 id="top-line">
 					We work with small businesses and entrepreneurs to get them set up for
 					success and stay on track
 				</h2>
-				<img src={stock_test} alt="test-img" id="test-img" />
 				{/* <h2>Streamline your Business</h2> */}
 				<p>
 					Whether you are starting a new small business or trying to organize
@@ -35,49 +35,54 @@ const ContentBody = () => {
 				</a>{' '}
 			</div>
 			<hr className="line" />
+			{/* <div className="service-section"> */}
 			<h2 id="service-title">Services</h2>
-			<div className="services">
-				<div id="systemization">
-					<h5>Systemization</h5>
-					<ul>
-						<li>Create a digital workspace</li>
-						<li>Domain creation and custom email set up</li>
-						<li>Website and social media connections</li>
-						<li>Work management software implementation</li>
-						<li>Calendar scheduling and syncing</li>
-						<li>Full system troubleshooting</li>
-					</ul>
+				<div className="services">
+					<div id="systemization">
+						<h5>Systemization</h5>
+						<ul>
+							<li>Create a digital workspace</li>
+							<li>Domain creation and custom email set up</li>
+							<li>Website and social media connections</li>
+							<li>Work management software implementation</li>
+							<li>Calendar scheduling and syncing</li>
+							<li>Full system troubleshooting</li>
+						</ul>
+					</div>
+					<div id="strategizing">
+						<h5>Strategizing</h5>
+						<ul>
+							<li>Brainstorming sessions</li>
+							<li>Resources to elevate your administrative workload</li>
+							<li>Organization methods to alleviate obstacles</li>
+							<li>Catalogue of technology options tailored to your business</li>
+							<li>
+								Researched network of freelancers for specialized projects
+							</li>
+						</ul>
+					</div>
+					<div id="onboarding">
+						<h5>Onboarding</h5>
+						<ul>
+							<li>Assess needs for future hires</li>
+							<li>Assist with job description creation</li>
+							<li>
+								Provide new hires with systems to make the transition run
+								smoothly{' '}
+							</li>
+						</ul>
+					</div>
+					<div id="accountability">
+						<h5>Accountability</h5>
+						<ul>
+							<li>Timeline creation</li>
+							<li>Objective setting</li>
+							<li>Deadline Monitoring</li>
+							<li>Goal markers and check ins</li>
+						</ul>
+					</div>
 				</div>
-				<div id="strategizing">
-					<h5>Strategizing</h5>
-					<ul>
-						<li>Brainstorming sessions</li>
-						<li>Resources to elevate your administrative workload</li>
-						<li>Organization methods to alleviate obstacles</li>
-						<li>Catalogue of technology options tailored to your business</li>
-						<li>Researched network of freelancers for specialized projects</li>
-					</ul>
-				</div>
-				<div id="onboarding">
-					<h5>Onboarding</h5>
-					<ul>
-						<li>Assess needs for future hires</li>
-						<li>Assist with job description creation</li>
-						<li>
-							Provide new hires with systems to make the transition run smoothly{' '}
-						</li>
-					</ul>
-				</div>
-				<div id="accountability">
-					<h5>Accountability</h5>
-					<ul>
-						<li>Timeline creation</li>
-						<li>Objective setting</li>
-						<li>Deadline Monitoring</li>
-						<li>Goal markers and check ins</li>
-					</ul>
-				</div>
-			</div>
+			{/* </div> */}
 			<hr className="line" />
 		</div>
 	);
