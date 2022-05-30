@@ -2,11 +2,16 @@
 
 .contact-section {
 	padding: 15px 25px 15px 25px;
-	border: 5px solid $yellow;
-	border-radius: 15px;
 	margin: 0 15px 0;
+}
+
+.outer-section {
 	display: flex;
 	flex-direction: column;
+	border: 5px solid $blue-transparent;
+	border-radius: 15px;
+	margin: 0 15px;
+	align-items: center;
 }
 
 #contact-header {
@@ -22,12 +27,21 @@
 	text-align: left;
 }
 
+#hands {
+	padding: 15px;
+	width: 450px;
+}
+
 a {
 	color: $blue;
 }
 
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 1140px) {
 	.contact-section {
+		flex-direction: row;
+	}
+
+	.outer-section {
 		flex-direction: row;
 	}
 
@@ -40,4 +54,9 @@ a {
 		margin: 0 15px 0;
 		text-align: justify;
 	}
+
+	#hands {
+		width: 500px;
+	}
+
 }
