@@ -11,7 +11,7 @@ const ContentBody = () => {
 					success and stay on track
 				</h2>
 				<img src={stock_test} alt="test-img" id="test-img" />
-				<h2>Streamline your Business</h2>
+				{/* <h2>Streamline your Business</h2> */}
 				<p>
 					Whether you are starting a new small business or trying to organize
 					your existing business infrastructure, Streamlined Partners will work
