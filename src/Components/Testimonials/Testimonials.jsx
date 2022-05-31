@@ -20,7 +20,7 @@ const Testimonials = () => {
 			<Carousel variant="dark">
 				{testimonialData.map(testimonial => (
 					<Carousel.Item>
-						<img className='background' src={findImage(testimonial.imgTitle)} alt={testimonial.body} />
+						<img className='testimonial-img' src={findImage(testimonial.imgTitle)} alt={testimonial.body} />
 					</Carousel.Item>
 				))}
 			</Carousel>
