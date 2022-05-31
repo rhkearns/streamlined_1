@@ -1,11 +1,11 @@
 import React from 'react';
 import './ContentBody.scss';
-import stock_test from '../../images/stock_test.jpg';
+import stock_test from '../../images/cover-img.png';
 
 const ContentBody = () => {
 	return (
 		<div id="content">
-				<img src={stock_test} alt="test-img" id="test-img" />
+			<img src={stock_test} alt="test-img" id="test-img" />
 			<div id="pitch">
 				<h2 id="top-line">
 					We work with small businesses and entrepreneurs to get them set up for
@@ -25,11 +25,18 @@ const ContentBody = () => {
 				<p>
 					We work remotely allowing us to work with companies wherever they are.
 				</p>{' '}
-				<button id="cta-button"><a id="link" href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan">Contact Us</a></button>
-{' '}
+				<button id="cta-button">
+					<a
+						id="link"
+						href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
+					>
+						Contact Us
+					</a>
+				</button>{' '}
 			</div>
 			<hr className="line" />
-			<h2 id="service-title">Services</h2>
+			<div className="outer-service">
+				<h2 id="service-title">Services</h2>
 				<div className="services">
 					<div id="systemization">
 						<h5>Systemization</h5>
@@ -74,8 +81,16 @@ const ContentBody = () => {
 							<li>Goal markers and check ins</li>
 						</ul>
 					</div>
+				</div>
+			<button id="cta-button">
+				<a
+					id="link"
+					href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
+				>
+					Contact Us
+				</a>
+			</button>
 			</div>
-			<button id="cta-button"><a id="link" href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan">Contact Us</a></button>
 			<hr className="line" />
 		</div>
 	);
