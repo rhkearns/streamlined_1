@@ -5,8 +5,8 @@ import stock_test from '../../images/stock_test.jpg';
 const ContentBody = () => {
 	return (
 		<div id="content">
-			<div id="pitch">
 				<img src={stock_test} alt="test-img" id="test-img" />
+			<div id="pitch">
 				<h2 id="top-line">
 					We work with small businesses and entrepreneurs to get them set up for
 					success and stay on track
