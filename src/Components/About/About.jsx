@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.scss';
-import hands from '../../images/hands.jpg';
 import windows from '../../images/windows.jpg'
 
 const About = () => {
