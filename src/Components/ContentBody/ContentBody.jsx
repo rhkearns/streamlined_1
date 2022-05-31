@@ -25,11 +25,10 @@ const ContentBody = () => {
 				<p>
 					We work remotely allowing us to work with companies wherever they are.
 				</p>{' '}
-				<button id="cta-button"><a href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan">Contact Us</a></button>
+				<button id="cta-button"><a id="link" href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan">Contact Us</a></button>
 {' '}
 			</div>
 			<hr className="line" />
-			{/* <div className="service-section"> */}
 			<h2 id="service-title">Services</h2>
 				<div className="services">
 					<div id="systemization">
@@ -75,8 +74,8 @@ const ContentBody = () => {
 							<li>Goal markers and check ins</li>
 						</ul>
 					</div>
-				</div>
-			{/* </div> */}
+			</div>
+			<button id="cta-button"><a id="link" href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan">Contact Us</a></button>
 			<hr className="line" />
 		</div>
 	);
