@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.scss';
 import hands from '../../images/hands.jpg';
+import contactUs from '../../images/contact-us.jpg'
 
 const Contact = () => {
 	return (
@@ -38,7 +39,7 @@ const Contact = () => {
 					</p>
 				</div>
 			</div>
-				<img src={hands} alt="hands" id="hands"/>
+				<img src={contactUs} alt="hands" id="hands"/>
 		</div>
 	);
 };
