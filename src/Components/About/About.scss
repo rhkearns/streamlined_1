@@ -1,24 +1,51 @@
 @import '../../common/colors.scss';
 
 .about-section {
-	padding: 20px 15px;
+	padding: 15px 25px 15px 25px;
 	margin: 5px 15px;
-	border: 5px solid $yellow;
+}
+
+#outer-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid $blue-transparent;
 	border-radius: 15px;
+	margin: 0 15px;
 }
 
 #about-header {
 	color: $blue;
-	font-size: 26px;
+	font-size: 32px;
+	text-align: center;
 }
 
 #about-blurb {
 	color: $black;
-	font-size: 18px;
-	text-align: left;
-	margin: 18px 30px;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 0 8px;
+}
+
+#hands-about {
+	padding: 15px 0 15px 15px;
+	width: 330px;
 }
 
 .ital {
 	font-style: italic;
+}
+
+@media only screen and (min-width: 1140px) {
+	.about-section {
+		flex-direction: row;
+	}
+
+	#outer-section {
+		flex-direction: row-reverse;
+	}
+
+	#hands-about {
+		width: 500px;
+	}
 }

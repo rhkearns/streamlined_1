@@ -17,7 +17,7 @@
 
 #contact-header {
 	color: $blue;
-	text-align: left;
+	text-align: center;
 	margin: 0 0 8px;
 	font-size: 32px;
 }
@@ -25,12 +25,12 @@
 #contact-blurb {
 	color: $black;
 	font-size: 20px;
-	text-align: left;
+	text-align: center;
 }
 
 #hands {
 	width: 330px;
-	padding: 15px;
+	padding: 0 15px 15px;
 	// object-fit: scale-down;
 }
 
@@ -54,7 +54,7 @@ a {
 
 	#contact-blurb {
 		margin: 0 15px 0;
-		text-align: left;
+		text-align: center;
 	}
 
 	#hands {

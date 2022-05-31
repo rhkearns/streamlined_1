@@ -1,9 +1,9 @@
 import React from 'react';
 import './About.scss';
-
+import hands from '../../images/hands.jpg';
 const About = () => {
 	return (
-		<>
+		<div id="outer-section">
 			<div className="about-section">
 				<h1 id="about-header">About</h1>
 				<div id="about-blurb">
@@ -23,7 +23,8 @@ const About = () => {
 					</p>
 				</div>
 			</div>
-		</>
+			<img src={hands} alt="hands" id="hands-about" />
+		</div>
 	);
 };
 
