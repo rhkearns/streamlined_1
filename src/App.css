@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  /* width: 85%; */
   margin: 0 auto;
+  background-image: url(./images/backgrounds/Background\ 6.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* opacity: .6; */
 }
-
