@@ -25,7 +25,7 @@ const ContentBody = () => {
 				<p>
 					We work remotely allowing us to work with companies wherever they are.
 				</p>{' '}
-				<button><a style="color: white;" href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan">Contact Us</a></button>
+				<button id="cta-button"><a href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan">Contact Us</a></button>
 {' '}
 			</div>
 			<hr className="line" />
