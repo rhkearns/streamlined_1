@@ -14,8 +14,10 @@ function App() {
       <Header />
       {/* <Nav /> */}
       <ContentBody />
-      <Testimonials />
       <Contact />
+      <hr className="line" />
+      <Testimonials />
+      <hr className="line" />
       <About />
       {/* <Nav /> */}
       <Footer />

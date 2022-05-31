@@ -82,15 +82,15 @@ const ContentBody = () => {
 						</ul>
 					</div>
 				</div>
-			<button id="cta-button">
+			</div>
+			{/* <button id="cta-button">
 				<a
 					id="link"
 					href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
 				>
 					Contact Us
 				</a>
-			</button>
-			</div>
+			</button> */}
 			<hr className="line" />
 		</div>
 	);
