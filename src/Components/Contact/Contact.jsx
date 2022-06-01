@@ -10,7 +10,7 @@ const Contact = () => {
 				<div id="contact-blurb">
 					<p>
 						Want more information? Want to get started but don't know where to
-						start?
+						begin?
 					</p>
 					<p>
 						Contact us today to schedule a free consultation where we will sit
