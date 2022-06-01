@@ -24,7 +24,7 @@ const Footer = () => {
 			</div>
 			<div className="blurb">
 				<p id="line1">Based in New York, NY</p>
-				<p id="line2">Avaiable anywhere virtually</p>
+				<p id="line2">Available anywhere virtually</p>
 			</div>
 		</div>
 	);

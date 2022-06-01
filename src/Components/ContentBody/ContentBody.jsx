@@ -17,10 +17,10 @@ const ContentBody = () => {
 					your existing business infrastructure, Streamlined Partners will work
 					with you to keep your company moving forward and make the best of your
 					resources, budget, and talent. We have experience working with clients
-					across industries, from consumer packaged good brands to marketing
+					across industries, from consumer-packaged good brands to marketing
 					companies, from musical performance schools to healthcare nonprofits.
-					Working with Streamlined Partners is a smart short term investment in
-					your business’ long term goals.
+					Working with Streamlined Partners is a smart short-term investment in
+					your business’ long-term goals.
 				</p>
 				<p>
 					We work remotely allowing us to work with companies wherever they are.
