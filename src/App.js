@@ -16,7 +16,7 @@ function App() {
       <ContentBody />
       <Contact />
       <hr className="line" />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <hr className="line" />
       <About />
       {/* <Nav /> */}
