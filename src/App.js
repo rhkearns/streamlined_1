@@ -19,7 +19,7 @@ function App() {
       <Testimonials />
       {/* <hr className="line" /> */}
       {/* <Testimonials /> */}
-      <hr className="line" />
+      {/* <hr className="line" /> */}
       <About />
       {/* <Nav /> */}
       <Footer />
