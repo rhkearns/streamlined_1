@@ -6,7 +6,7 @@ import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 // import Nav from './Components/Nav/Nav';
 import About from './Components/About/About';
-import Testimonials from './Components/Testimonials/Testimonials';
+// import Testimonials from './Components/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <ContentBody />
       <Contact />
       <hr className="line" />
-      <Testimonials />
-      <hr className="line" />
+      {/* <Testimonials /> */}
+      {/* <hr className="line" /> */}
       <About />
       {/* <Nav /> */}
       <Footer />
