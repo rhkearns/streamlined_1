@@ -3,13 +3,16 @@ import './Testimonials.scss';
 import { Carousel } from 'react-bootstrap';
 import testimonialData from '../../common/testimonialData';
 import Testimonial_Carly from '../../images/testimonials/Testimonial_Carly.png'
+import Testimonial_Deborah from '../../images/testimonials/Testimonial_Deborah.png'
 
 const Testimonials = () => {
 	console.log(testimonialData);
 	const findImage = image => {
 		switch (image) {
-			case 'carly':
+			case 'moodBars':
 				return Testimonial_Carly;
+			case 'liberoCanto':
+				return Testimonial_Deborah;
 			default:
 				break;
 		}
