@@ -12,6 +12,7 @@ const Contact = () => {
 						Want more information? Want to get started but don't know where to
 						begin?
 					</p>
+					<p id="price-line">Packages start at $495.</p>
 					<p>
 						Contact us today to schedule a free consultation where we will sit
 						down with you and create a plan based on your needs.
