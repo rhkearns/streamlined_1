@@ -28,7 +28,10 @@
 #contact-blurb {
 	color: $black;
 	font-size: 20px;
-	text-align: center;
+}
+
+#contact-blurb > p {
+	text-align: left;
 }
 
 #hands {
