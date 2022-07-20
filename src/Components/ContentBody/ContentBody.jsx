@@ -29,6 +29,8 @@ const ContentBody = () => {
 					<a
 						id="link"
 						href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
+						target="_blank"
+						rel="noopener noreferrer"
 					>
 						Contact Us
 					</a>
