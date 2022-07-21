@@ -43,10 +43,11 @@ const ContentBody = () => {
 					<div id="systemization">
 						<h5>Systemization</h5>
 						<ul>
-							<li>Create a digital workspace</li>
+							{/* <li>Create or update your digital workspace</li> */}
 							<li>Domain creation and custom email set up</li>
-							<li>Website and social media connections</li>
 							<li>Work management software implementation</li>
+							{/* <li>Website and social media connections</li> */}
+							<li>Cross-channel brand simplification</li>
 							<li>Calendar scheduling and syncing</li>
 							<li>Full system troubleshooting</li>
 						</ul>
