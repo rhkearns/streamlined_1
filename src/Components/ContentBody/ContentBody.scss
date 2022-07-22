@@ -6,7 +6,7 @@
 
 #content {
 	text-align: center;
-	// margin: 50px 0;
+	margin: 50px 0;
 	color: $black;
 	font-size: 22px;
 }
@@ -16,7 +16,7 @@
 	// border-radius: 15px;
 	// background-color: rgba(255, 255, 255, 0.856);
 	background-color: white;
-	margin: 0 75px 25px 75px;
+	margin: 0 20px;
 }
 
 #pitch > p {
@@ -135,5 +135,9 @@
 		// grid-column: 3/4;
 		// grid-row: 2/3;
 		grid-area: d;
+	}
+
+	#pitch {
+		margin: 0 75px 25px 75px;
 	}
 }
