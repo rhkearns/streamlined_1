@@ -14,6 +14,7 @@ function App() {
       <Header />
       {/* <Nav /> */}
       <ContentBody />
+      <hr className="line" />
       <Contact />
       <hr className="line" />
       {/* <Testimonials /> */}

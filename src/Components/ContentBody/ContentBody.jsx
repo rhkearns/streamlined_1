@@ -97,7 +97,6 @@ const ContentBody = () => {
 					Contact Us
 				</a>
 			</button> */}
-			<hr className="line" />
 	);
 };
 
