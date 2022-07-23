@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Carousel } from 'react-bootstrap';
+// import { Carousel } from 'react-bootstrap';
 import './ContentBody.scss';
 import stock_test from '../../images/cover-img.png';
 
