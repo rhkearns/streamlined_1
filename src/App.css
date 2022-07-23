@@ -7,3 +7,7 @@
   width: 95%;
   /* opacity: .6; */
 }
+
+p, li {
+  font-family: "utopia-std";
+}
