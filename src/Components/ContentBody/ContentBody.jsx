@@ -40,44 +40,19 @@ const ContentBody = () => {
 			<hr className="line" />
 			<div className="outer-service">
 				<h2 id="service-title">Services</h2>
-				<h3>
+				{/* <h3>
 					Systemization - Strategizing - Implementation - Accountability -
 					Onboarding
-				</h3>
+				</h3> */}
 
-				<Carousel interval={null} variant="dark">
-					<Carousel.Item>
-						<p>
-							<br />
-							Streamline Partners will work with your business to create a custom domain and matching email address. We set up all of your social accounts to also match your domain and branding. We have
-							experience with many different work management programs and will go over your needs to find the best ones for you. This one is our favorite, we set up calendars and sync them across all your devices. We will set those up and create pages, folders, channels, and projects as needed.
-							<br />
-							<br />
-						</p>
-					</Carousel.Item>
-					{/* <Carousel.Item>
-						<p>
-						<br /><br />If you have all of these already set up, congrats! You're ahead of the game. Let's move on to step 2!<br /><br /><br /></p>
-					</Carousel.Item> */}
-					<Carousel.Item><p> <br /> If you have taken care of the systemization items, we will start with strategy and implementation. We will set up brainstorming and touch-base meetings, organize your project management software and mailboxes. Streamlined Partners implements specialized templates to help you through every twist and turn of running your business. We even have a network of freelancers to call in for whatever you need. <br /><br />
-						</p></Carousel.Item>
-						<Carousel.Item>
-						<p><br />Have you been thinking it's time to hire a new employee but aren't sure what exactly that role will be? We are more than happy to spend a day or two with you, see how you work and where your gaps are to write you the perfect job description. Do you find going through hundreds of applications a bore? We'll take that off your hands! We will sort through to find you the top candidates and even set up the interview times.<br /><br />
-						</p>
-					</Carousel.Item>
-					<Carousel.Item>
-						<p>< br />Everything that Streamlined Partners offers is to give you the opportunity to focus on what matters for your business and not have to worry about the administraion<br /><br /></p>
-					</Carousel.Item>
-				</Carousel>
-
-				<p></p>
 				<div className="services">
 					<div id="systemization">
 						<h5>Systemization</h5>
 						<ul>
 							<li>Domain creation and custom email set up</li>
-							<li>Work management software implementation</li>
-							<li>Cross-channel brand simplification</li>
+							<li>Work management software identification and implementation</li>
+							<li>Cross-channel brand standardization</li>
+							{/* <li>Catalog of technology options tailored to your business</li> */}
 							<li>Calendar scheduling and syncing</li>
 							<li>Full system troubleshooting</li>
 						</ul>
@@ -86,9 +61,8 @@ const ContentBody = () => {
 						<h5>Strategizing</h5>
 						<ul>
 							<li>Brainstorming sessions</li>
-							<li>Resources to elevate your administrative workload</li>
-							<li>Organization methods to alleviate obstacles</li>
-							<li>Catalogue of technology options tailored to your business</li>
+							<li>Resources to alleviate your administrative workload</li>
+							<li>Organization methods and templates to make your day-to-day simpiler</li>
 							<li>
 								Researched network of freelancers for specialized projects
 							</li>
@@ -115,21 +89,23 @@ const ContentBody = () => {
 						</ul>
 					</div>
 				</div>
-				<div id="packages">
-					<div id="package-1">
-						Systemization
-						<br />
+				{/* <div id="packages">
+					<h2 id="service-title">Packages</h2>
+					<Carousel interval={null} variant="dark">
+<Carousel.Item>
+<br /><h2>Systemization</h2><p>
 						<ul>
-							<li>setting up custom domain email address</li>
-							<li>Going through PM software to figure out the best fit</li>
+							<li>Custom domain email address setup</li>
+							<li>Select the best work management software for your business</li>
 							<li>Set up PM software, work management software, etc</li>
 							<li>Set up password saving software </li>
 							<li>Set up and connect calendars </li>
 							<li>Connect and sync socials</li>
-						</ul>
-					</div>
-					<div id="package-2">
-						Package Option 2
+						</ul><br /><br />
+</p>
+</Carousel.Item>
+<Carousel.Item>
+<p><br />Package Option 2
 						<br />
 						Strategy/Implementation Package
 						<ul>
@@ -151,10 +127,9 @@ const ContentBody = () => {
 							</li>
 							<li>Assist in hiring and scheduling interviews</li>
 							<li>Work with new hire to onboard</li>
-						</ul>
-					</div>
-					<div id="package-3">
-						Package Option 3
+						</ul><br /><br /></p>
+</Carousel.Item> 
+<Carousel.Item><p><br />Package Option 3
 						<br />
 						Hiring/Onboarding
 						<ul>
@@ -168,10 +143,26 @@ const ContentBody = () => {
 							<li>post job description</li>
 							<li>sort through resume</li>
 							<li>assist in scheduling interviews</li>
-							<li>set up new hire with needed work management software</li>
+							<li>set up new hire with needed work management software</li><br /><br />
 						</ul>
+</p></Carousel.Item> */}
+{/* <Carousel.Item>
+<p></p>
+</Carousel.Item> */}
+{/* <Carousel.Item>
+<p></p>
+</Carousel.Item> */}
+{/* </Carousel> */}
+					{/* <div id="package-1">
+					
 					</div>
-				</div>
+					<div id="package-2">
+						
+					</div>
+					<div id="package-3">
+						
+					</div> */}
+				{/* </div> */}
 			</div>
 			{/* <button id="cta-button">
 				<a
