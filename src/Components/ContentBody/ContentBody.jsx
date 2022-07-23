@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './ContentBody.scss';
 import stock_test from '../../images/cover-img.png';
 
-const ContentBody = () => {	
+const ContentBody = () => {
 	return (
 		<div id="content">
 			<img src={stock_test} alt="test-img" id="test-img" />
@@ -50,7 +50,9 @@ const ContentBody = () => {
 						<h5>Systemization</h5>
 						<ul>
 							<li>Domain creation and custom email set up</li>
-							<li>Work management software identification and implementation</li>
+							<li>
+								Work management software identification and implementation
+							</li>
 							<li>Cross-channel brand standardization</li>
 							{/* <li>Catalog of technology options tailored to your business</li> */}
 							<li>Calendar scheduling and syncing</li>
@@ -62,7 +64,10 @@ const ContentBody = () => {
 						<ul>
 							<li>Brainstorming sessions</li>
 							<li>Resources to alleviate your administrative workload</li>
-							<li>Organization methods and templates to make your day-to-day simpiler</li>
+							<li>
+								Organization methods and templates to make your day-to-day
+								simpiler
+							</li>
 							<li>
 								Researched network of freelancers for specialized projects
 							</li>
@@ -89,7 +94,7 @@ const ContentBody = () => {
 						</ul>
 					</div>
 				</div>
-			{/* <button id="cta-button">
+				{/* <button id="cta-button">
 				<a
 					id="link"
 					href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
@@ -97,6 +102,8 @@ const ContentBody = () => {
 					Contact Us
 				</a>
 			</button> */}
+			</div>
+		</div>
 	);
 };
 
