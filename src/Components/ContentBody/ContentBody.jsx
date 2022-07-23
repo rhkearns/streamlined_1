@@ -98,7 +98,6 @@ const ContentBody = () => {
 				</a>
 			</button> */}
 			<hr className="line" />
-		</div>
 	);
 };
 
