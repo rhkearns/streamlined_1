@@ -49,44 +49,24 @@ const ContentBody = () => {
 					<Carousel.Item>
 						<p>
 							<br />
-							Streamline Partners will work with your business to create a
-							custom domain and matching email address. We set up all of your
-							social accounts to also match your domain and branding. We have
-							experience with many different work management programs and will
-							go over your needs to find the best ones for you. We will set
-							those up and create pages, folders, channels, and projects as
-							needed.
-							<br />
+							Streamline Partners will work with your business to create a custom domain and matching email address. We set up all of your social accounts to also match your domain and branding. We have
+							experience with many different work management programs and will go over your needs to find the best ones for you. This one is our favorite, we set up calendars and sync them across all your devices. We will set those up and create pages, folders, channels, and projects as needed.
 							<br />
 							<br />
 						</p>
 					</Carousel.Item>
-					<Carousel.Item>
+					{/* <Carousel.Item>
 						<p>
-							If you have all of these already set up, congrats! You're ahead of
-							the game.
-							<br /> For you, we will skip step one and come on for stragety and
-							implementization. We will set up brainstorming and touch-base
-							meetings, organize your project management software and mailboxes
-							(you know you need it don't you?). Streamlined Partners implements
-							specialized templates to help you through every twist and turn of
-							running your business. We even have a network of freelancers to
-							call in for whatever you need.
-						</p>
-						<Carousel.Item></Carousel.Item>
-						<p>
-							{' '}
-							Have you been thinking it's time to hire a new employee but aren't
-							sure what exactly that role will be? We are more than happy to
-							spend a day or two with you, see how you work and where your gaps
-							are to write you the perfect job description. Do you find goin
-							through hundreds of applications a bore? We'll take that off your
-							hands! You will sort through to find you the top candidates and
-							even set up the interview times.
+						<br /><br />If you have all of these already set up, congrats! You're ahead of the game. Let's move on to step 2!<br /><br /><br /></p>
+					</Carousel.Item> */}
+					<Carousel.Item><p> <br /> If you have taken care of the systemization items, we will start with strategy and implementation. We will set up brainstorming and touch-base meetings, organize your project management software and mailboxes. Streamlined Partners implements specialized templates to help you through every twist and turn of running your business. We even have a network of freelancers to call in for whatever you need. <br /><br />
+						</p></Carousel.Item>
+						<Carousel.Item>
+						<p><br />Have you been thinking it's time to hire a new employee but aren't sure what exactly that role will be? We are more than happy to spend a day or two with you, see how you work and where your gaps are to write you the perfect job description. Do you find going through hundreds of applications a bore? We'll take that off your hands! We will sort through to find you the top candidates and even set up the interview times.<br /><br />
 						</p>
 					</Carousel.Item>
 					<Carousel.Item>
-						<p>page 4</p>
+						<p>< br />Everything that Streamlined Partners offers is to give you the opportunity to focus on what matters for your business and not have to worry about the administraion<br /><br /></p>
 					</Carousel.Item>
 				</Carousel>
 
