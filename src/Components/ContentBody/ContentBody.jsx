@@ -1,12 +1,12 @@
 import React from 'react';
 // import { Carousel } from 'react-bootstrap';
 import './ContentBody.scss';
-import stock_test from '../../images/cover-img.png';
+import cover_img from '../../images/cover-img.png';
 
 const ContentBody = () => {
 	return (
 		<div id="content">
-			<img src={stock_test} alt="test-img" id="test-img" />
+			<img src={cover_img} alt="cover" id="cover-img" />
 			<div id="pitch">
 				<h2 id="top-line">
 					We work with small businesses and entrepreneurs to get them set up for
