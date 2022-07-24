@@ -7,7 +7,7 @@ const Packages = () => {
 		<div id="packages-page">
 			<img src={cover_img} alt="cover" id="cover-img" />
 			<h1 id="package-header">Package</h1>
-			test test test 
+			<p>test test test test</p> 
 		</div>
 	);
 
