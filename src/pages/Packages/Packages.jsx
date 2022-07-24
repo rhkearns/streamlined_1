@@ -6,9 +6,11 @@ const Packages = () => {
 	return (
 		<div id="packages-page">
 			<img src={cover_img} alt="cover" id="cover-img" />
-			<h1>Packages</h1>
+			<h1 id="package-header">Package</h1>
+			test test test 
 		</div>
 	);
+
 };
 
 export default Packages;
