@@ -13,7 +13,7 @@ const Contact = () => {
 						Want more information? Want to get started but don't know where to
 						begin?
 					</p>
-					<Link to={'/packages'}><p id="package-link">Click here to view packages, starting at $495.</p></Link>
+					{/* <Link to={'/packages'}><p id="package-link">Click here to view packages, starting at $495.</p></Link> */}
 					<p>
 						Contact us today to schedule a free consultation where we will sit
 						down with you and create a plan based on your needs.
