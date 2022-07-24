@@ -6,8 +6,13 @@ const Packages = () => {
 	return (
 		<div id="packages-page">
 			<img src={cover_img} alt="cover" id="cover-img" />
-			<h1 id="package-header">Package</h1>
-			<p>test test test test</p> 
+
+			<div id="package-Header">
+			<h1>Packages</h1>
+			<div id="package-section">
+			<p>Systemization</p>
+			</div>
+			</div>			
 		</div>
 	);
 
