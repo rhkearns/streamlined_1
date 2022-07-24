@@ -8,6 +8,7 @@ const Packages = () => {
 			<img src={cover_img} alt="cover" id="cover-img" />
 			<h2 id="packages">Packages</h2>
 			<div id="packages-section">
+			<div id="systemization">
 		<h5>Systemization</h5>
 			<p>
 	Setting up custom domain email address
@@ -20,6 +21,7 @@ const Packages = () => {
 	<br />$495 for a team of up to 5 people</p>
 			</div>
 			<div id="packages-section">
+				<div id="integration and strategy">
 		<h5>Integration and Strategy</h5>
 			<p>
 			<br />Brainstorm/touch base meetings (2 a week @ 1 hour each)
@@ -37,6 +39,7 @@ const Packages = () => {
 	<br />Assist in creating job description based on what is experienced
 	<br />Assist in hiring and scheduling interviews
 	<br />Work with new hire to onboard</p>
+			</div>
 			</div>
 			</div>	
 	);
