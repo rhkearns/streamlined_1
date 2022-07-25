@@ -17,11 +17,10 @@ const Packages = () => {
 	<br />Set up password saving software
 	<br />Set up and connect calendars
 	<br />Connect and sync socials (all handles are the same, logos, etc)
-
 	<br />$495 for a team of up to 5 people</p>
 			</div>
 			<div id="packages-section">
-				<div id="integration and strategy">
+				<div id="integration">
 		<h5>Integration and Strategy</h5>
 			<p>
 			<br />Brainstorm/touch base meetings (2 a week @ 1 hour each)
