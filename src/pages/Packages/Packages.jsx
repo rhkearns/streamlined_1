@@ -5,7 +5,7 @@ import cover_img from '../../images/cover-img.png';
 const Packages = () => {
 	return (
 		<div id="packages-page">
-			{/* <img src={cover_img} alt="cover" id="cover-img" /> */}
+			<img src={cover_img} alt="cover" id="cover-img" />
 			<h2 id="packages">Packages</h2>
 			<div className="packages-section">
 				<div id="systemization">
