@@ -39,7 +39,7 @@
 	.packages {
 		text-align: left;
 		display: grid;
-		// grid-template-columns: 10% 35% 35% 20%;
+		grid-template-columns: 10% 35% 35% 20%;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-areas:
 			' a b '
