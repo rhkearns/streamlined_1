@@ -40,11 +40,6 @@ const ContentBody = () => {
 			<hr className="line" />
 			<div className="outer-service">
 				<h2 id="service-title">Services</h2>
-				{/* <h3>
-					Systemization - Strategizing - Implementation - Accountability -
-					Onboarding
-				</h3> */}
-
 				<div className="services">
 					<div id="systemization">
 						<h5>Systemization</h5>

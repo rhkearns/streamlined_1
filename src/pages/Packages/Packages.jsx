@@ -6,8 +6,8 @@ const Packages = () => {
 	return (
 		<div id="packages-page">
 			<img src={cover_img} alt="cover" id="cover-img" />
-			<h2 id="packages">Packages</h2>
-			{/* <div id="packages-section"> */}
+			<h2 id="packages-title">Packages</h2>
+			<div className="packages">
 				<div id="systemization-package">
 					<h5>Systemization</h5>
 					<p>Setting up custom domain email address
