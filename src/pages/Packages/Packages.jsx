@@ -19,6 +19,7 @@ const Packages = () => {
 	<br />Connect and sync socials (all handles are the same, logos, etc)
 	<br />$495 for a team of up to 5 people</p>
 			</div>
+			</div>
 			<div id="packages-section">
 				<div id="integration">
 		<h5>Integration and Strategy</h5>
@@ -41,7 +42,6 @@ const Packages = () => {
 			</div>
 			</div>
 			</div>	
-			</div>
 	);
 
 };
