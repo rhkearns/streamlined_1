@@ -45,7 +45,7 @@ const Packages = () => {
 					<br />Set up new hire with needed work management software</p>
 				</div>
 			</div>
-		// </div>	
+		</div>	
 	);
 
 };
