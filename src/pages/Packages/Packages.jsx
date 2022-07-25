@@ -7,8 +7,8 @@ const Packages = () => {
 		<div id="packages-page">
 			<img src={cover_img} alt="cover" id="cover-img" />
 			<h2 id="packages">Packages</h2>
-			<div id="packages-section">
-			<div id="systemization">
+		<div id="packages-section">
+		<div id="systemization">
 		<h5>Systemization</h5>
 			<p>
 	Setting up custom domain email address
