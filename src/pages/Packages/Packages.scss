@@ -14,21 +14,10 @@
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
-	width: 95%;
+	width: 70%;
 	margin: 0 auto;
 	background-color: white;
-  text-align: left;
-
 }
-// #packages-section {
-//   // border: 5px solid $blue;
-//   border-radius: 15px;
-//   padding: 15px 25px 0 25px;
-//   color: $black;
-//   background-color: rgba(255, 255, 255);
-//   text-align: left;
-//   width: 70%;
-// }
 #systemization-package,
 #integration-package,
 #onboarding-package {
@@ -37,7 +26,8 @@
 	padding: 15px 25px 0 25px;
 	color: $black;
 	background-color: rgba(255, 255, 255);
-  text-align: left;
+  width: 70%;
+
 
 	h5 {
 		color: $blue;
