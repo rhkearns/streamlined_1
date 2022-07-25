@@ -40,7 +40,7 @@ const Packages = () => {
 					<p>Spend about 10 hours over two or three days overseeing processes to see what type of role is needed.
 					<br />Assist in creating job description based on what is experienced
 					<br />Post job description
-					<br />Sort through resumes
+					<br />Look through applicant resumes
 					<br />Assist in scheduling interviews
 					<br />Set up new hire with needed work management software</p>
 				</div>
