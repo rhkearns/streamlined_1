@@ -18,3 +18,18 @@
   text-align: left;
   width: 70%;
 }
+#systemization-package
+#integration-package 
+#onboarding-package {
+	border: 5px solid $blue;
+	border-radius: 15px;
+	padding: 15px 25px 0 25px;
+	color: $black;
+	background-color: rgba(255, 255, 255);
+
+	h5 {
+		color: $blue;
+		font-size: 30px;
+		margin: 15px 0;
+	}
+}

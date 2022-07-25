@@ -8,7 +8,7 @@ const Packages = () => {
 			<img src={cover_img} alt="cover" id="cover-img" />
 			<h2 id="packages">Packages</h2>
 			<div className="packages-section">
-				<div id="systemization">
+				<div id="systemization-package">
 					<h5>Systemization</h5>
 					<p>Setting up custom domain email address
 					<br />Going through PM software to figure out the best fit
@@ -18,7 +18,7 @@ const Packages = () => {
 					<br />Connect and sync socials (all handles are the same, logos, etc)
 					<br />$495 for a team of up to 5 people</p>
 				</div>
-				<div id="integration">
+				<div id="integration-package">
 					<h5>Integration and Strategy</h5>
 					<p>Brainstorm/touch base meetings (2 a week @ 1 hour each)
 					<br />include accountability and tracking goals
@@ -34,6 +34,15 @@ const Packages = () => {
 					<br />Assist in creating job description based on what is experienced
 					<br />Assist in hiring and scheduling interviews
 					<br />Work with new hire to onboard</p>
+				</div>
+				<div id="onboarding-package">
+					<h5>Onboarding</h5>
+					<p>Spend about 10 hours over two or three days overseeing processes to see what type of role is needed.
+					<br />Assist in creating job description based on what is experienced
+					<br />Post job description
+					<br />Sort through resumes
+					<br />Assist in scheduling interviews
+					<br />Set up new hire with needed work management software</p>
 				</div>
 			</div>
 		</div>	
