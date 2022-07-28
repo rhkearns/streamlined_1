@@ -11,7 +11,7 @@ const Packages = () => {
 			<div className="packages">
 				<div id="systemization-package">
 					<p>Streamlined Partners will work with you to set up all your work managment systems!
-					<br /> Everything you need to get your business up and running!	
+					<br /> We will go over which programs will work best for you and set up all of you accounts so you can focus on what really matters, running your business.	
 					<br /> Starting at $495</p>
 					<img src={logos_page_1} alt="logos_page_1" id="logos_page_1" />
 				</div>
