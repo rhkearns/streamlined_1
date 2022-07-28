@@ -1,7 +1,7 @@
 import React from 'react';
 import './Packages.scss'
 import cover_img from '../../images/cover-img.png';
-import logos_page_1 from 'rhkearns/streamlined_1/src/images/logos_page_1.jpg';
+import logos_page_one from 'rhkearns/streamlined_1/src/images/logos_page_1.jpg';
 
 const Packages = () => {
 	return (
@@ -13,7 +13,7 @@ const Packages = () => {
 					<p>Streamlined Partners will work with you to set up all your work managment systems!
 					<br /> We will go over which programs will work best for you and set up all of you accounts so you can focus on what really matters, running your business.	
 					<br /> Starting at $495</p>
-					<img src={logos_page_1} alt="logos_page_1" id="logos_page_1" />
+					<img src={logos_page_one} alt="logos_page_one" id="logos_page_one" />
 				</div>
 			</div>
 
