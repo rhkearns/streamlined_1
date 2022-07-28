@@ -1,6 +1,7 @@
 import React from 'react';
 import './Packages.scss'
 import cover_img from '../../images/cover-img.png';
+import logos_page_1
 
 const Packages = () => {
 	return (
@@ -12,6 +13,7 @@ const Packages = () => {
 					<p>Streamlined Partners will work with you to set up all your work managment systems!
 					<br /> Everything you need to get your business up and running!	
 					<br /> Starting at $495</p>
+					<img src={logos_page_1} alt="logos" id="logos_page_1" />
 				</div>
 			</div>
 
