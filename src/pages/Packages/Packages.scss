@@ -4,11 +4,24 @@
   margin: 50px 0;
 }
 
+#cta-button {
+	background-color: $blue;
+	border: none;
+	border-radius: 13px;
+	text-align: center;
+	margin: 20px 0;
+}
+
 #packages-title {
 	font-size: 40px;
 	color: $blue;
 	margin: 5px 0 25px;
 }
+
+.outer-packages {
+	margin: 15px 0px 15px 0px;
+}
+
 .packages {
 	text-align: center;
 	display: flex;
@@ -17,14 +30,6 @@
 	width: 95%;
 	margin: 0 auto;
 	background-color: white;
-}
-
-#cta-button {
-	background-color: $blue;
-	border: none;
-	border-radius: 13px;
-	text-align: center;
-	margin: 20px 0;
 }
 
 #systemization-package,
