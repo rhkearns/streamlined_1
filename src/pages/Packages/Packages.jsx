@@ -1,7 +1,7 @@
 import React from 'react';
 import './Packages.scss'
 import cover_img from '../../images/cover-img.png';
-import logos_page_one from 'rhkearns/streamlined_1/src/images/logos_page_1.jpg';
+// import logos_page_one from 'rhkearns/streamlined_1/src/images/logos_page_1.jpg';
 
 const Packages = () => {
 	return (
