@@ -1,12 +1,12 @@
 import React from 'react';
 import './Packages.scss'
 import cover_img from '../../images/cover-img.png';
-// import logos_page_one from 'rhkearns/streamlined_1/src/images/logos_page_1.jpg';
+import logos_page_one from 'rhkearns/streamlined_1/src/images/logos_page_1.jpg';
 
 const Packages = () => {
 	return (
 		<div id="packages-page">
-			<img src={cover_img} alt="cover" id="cover-img" />
+			{/* <img src={cover_img} alt="cover" id="cover-img" /> */}
 			<h2 id="packages-title">Get Started With Us</h2>
 			<div className="packages">
 				<div id="systemization-package">
@@ -22,7 +22,34 @@ const Packages = () => {
 					</a>
 				</button>
 						<br /> Starting at $495</p>
-					{/* <img src={logos_page_one} alt="logos_page_one" id="logos_page_one" /> */}
+				</div>
+				<div id="implentation-package">
+					<p>Have all of your administrative structures set up but not sure how to use them to their best potential? Want to continue to grow and scale your business but hitting operational roadblocks? Streamlined Partners is here for you! We will be your sounding board, your template provider and your extra set of hands. We will also guide you, once you are ready, to hire someone full time to take over this role. You won't even have to read through all of those applications! We are a short term investment in the long term goals of your company!
+						<br /><button id="cta-button">
+					<a
+						id="link"
+						href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Contact us today to schedule a free call to discuss your needs.
+					</a>
+				</button>
+						<br /> Starting at $1,850 a month</p>
+				</div>
+				<div id="Onboarding-package">
+					<p>Did I hear you will help me hire a full time employee? You will weed out all of the applications that don't fit our needs? Fantastic! <p>Streamlined Partners will assist you in figuring out the type of position you need, writing the job description and sorting through applicants. Our fees are upfront and we don't take recruiter fees. We are here to help you hire and onboard, one and done!</p>
+						<br /><button id="cta-button">
+					<a
+						id="link"
+						href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Contact us today to schedule a free call to discuss your needs.
+					</a>
+				</button>
+						<br /> Starting at $750</p>
 				</div>
 			</div>
 
