@@ -35,18 +35,34 @@
 		margin: 15px 0;
 	}
 }
-// @media only screen and (min-width: 860px) {
-// 	.packages {
-// 		text-align: left;
-// 		display: grid;
-// 		// grid-template-columns: 10% 35% 35% 20%;
-// 		grid-template-columns: repeat(2, 1fr);
-// 		grid-template-areas:
-// 			' a b '
-// 			' c d '
-// 			' e f '	;
-// 		gap: 30px;
-// 		width: 70%;
-// 		margin: 0 auto;
-// 		margin-bottom: 30px;
-// 	}
+@media only screen and (min-width: 860px) {
+	.services {
+		text-align: left;
+		display: grid;
+		// grid-template-columns: 10% 35% 35% 20%;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas:
+			' a '
+			' b '
+			' c ';
+		gap: 30px;
+		width: 85%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.outer-service {
+		background-color: white;
+	}
+
+	#systemization-package {
+		grid-area: a;
+	}
+
+	#implementation-packag {
+		grid-area: b;
+	}
+
+	#onboarding-package {
+		grid-area: c;
+	}
+}
