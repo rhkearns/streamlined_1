@@ -59,11 +59,11 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-areas:
-			' a '
-			' b '
-			' c '
-			' d ';
-		gap: 30px;
+			' a b '
+			' c d '
+			' e f'
+			' g h ';
+		gap: 15px;
 		width: 85%;
 		margin: 0 auto;
 		margin-bottom: 30px;
@@ -77,14 +77,14 @@
 	}
 
 	#implementation-package {
-		grid-area: b;
+		grid-area: d;
 	}
 
 	#onboarding-package {
-		grid-area: c;
+		grid-area: e;
 	}
 	#custom-package{
-		grid-area: d;
+		grid-area: h;
 	}
 
 }
