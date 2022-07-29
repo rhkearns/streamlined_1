@@ -12,6 +12,12 @@
 	margin: 20px 0;
 }
 
+#link {
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+}
+
 #packages-title {
 	font-size: 40px;
 	color: $blue;
@@ -23,10 +29,10 @@
 }
 
 .packages {
-	box-align: center;
+	text-align: left;
 	display: flex;
 	flex-direction: column;
-	// gap: 15px;
+	gap: 15px;
 	width: 95%;
 	margin: 0 auto;
 	background-color: white;
@@ -39,9 +45,7 @@
 	border-radius: 15px;
 	padding: 15px 25px 0 25px;
 	color: $black;
-	background-color: rgba(255, 255, 255);;
-  	width: 80%;
-	text-align: center;
+	background-color: rgba(255, 255, 255);
 
 	h5 {
 		color: $blue;
@@ -50,22 +54,23 @@
 	}
 }
 @media only screen and (min-width: 860px) {
-	.services {
+	.packages {
 		text-align: left;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-areas:
 			' a '
 			' b '
-			' c ';
+			' c '
+			' d ';
 		gap: 30px;
 		width: 85%;
 		margin: 0 auto;
 		margin-bottom: 30px;
 	}
-	// .outer-service {
-	// 	background-color: white;
-	// }
+	.outer-packages {
+		background-color: white;
+	}
 
 	#systemization-package {
 		grid-area: a;
@@ -78,4 +83,8 @@
 	#onboarding-package {
 		grid-area: c;
 	}
+	#custom-package{
+		grid-area: d;
+	}
+
 }
