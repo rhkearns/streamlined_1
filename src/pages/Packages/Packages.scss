@@ -36,7 +36,7 @@
 	color: $black;
 	background-color: rgba(255, 255, 255);;
   	width: 80%;
-	text-align: left;
+	text-align: center;
 
 	h5 {
 		color: $blue;
@@ -48,7 +48,6 @@
 	.services {
 		text-align: left;
 		display: grid;
-		// grid-template-columns: 10% 35% 35% 20%;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-areas:
 			' a '
@@ -59,9 +58,9 @@
 		margin: 0 auto;
 		margin-bottom: 30px;
 	}
-	.outer-service {
-		background-color: white;
-	}
+	// .outer-service {
+	// 	background-color: white;
+	// }
 
 	#systemization-package {
 		grid-area: a;
