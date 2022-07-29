@@ -18,7 +18,7 @@ const Packages = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							Contact us today to schedule a free call to discuss your needs.
+							Contact us today to schedule a <br />free call to discuss your needs.
 						</a>
 					</button>
 							<br /> Starting at $495</p>
