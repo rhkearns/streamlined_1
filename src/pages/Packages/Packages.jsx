@@ -6,7 +6,7 @@ import './Packages.scss'
 const Packages = () => {
 	return (
 		<div id="packages-page">
-			<div> className="outer-packages">
+			<div className="outer-packages">
 				<h2 id="packages-title">Get Started With Us</h2>
 				<div className="packages">
 					<div id="systemization-package">
