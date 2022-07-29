@@ -10,9 +10,21 @@ const Packages = () => {
 			<h2 id="packages-title">Get Started With Us</h2>
 			<div className="packages">
 				<div id="systemization-package">
-					<p>Streamlined Partners will work with you to set up all your work managment systems!
-					<br /> We will go over which programs will work best for you and set up all of you accounts so you can focus on what really matters, running your business.	
-					<br /> Starting at $495</p>
+					<p>At Streamlined Partners, we love to see small businesses and enterpenuers succeed.
+						<br />To achieve that goal, you shouldn't have to stress about the administrative back end of your company.
+						<br />We will figure out what software and programs will help you run most efficiently and 
+						<br / >allow you to focus on what really matters - making your business profitable!
+						<button id="cta-button">
+					<a
+						id="link"
+						href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						contact us today to schedule a free call to discss your needs
+					</a>
+				</button>
+						<br /> Starting at $495</p>
 					{/* <img src={logos_page_one} alt="logos_page_one" id="logos_page_one" /> */}
 				</div>
 			</div>
