@@ -7,6 +7,8 @@ const Packages = () => {
 	return (
 		<div id="packages-page">
 			{/* <img src={cover_img} alt="cover" id="cover-img" /> */}
+			<br />
+			<br />
 			<h2 id="packages-title">Get Started With Us</h2>
 			<div className="packages">
 				<div id="systemization-package">
