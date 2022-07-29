@@ -23,7 +23,7 @@ const Packages = () => {
 				</button>
 						<br /> Starting at $495</p>
 				</div>
-				<div id="implentation-package">
+				<div id="implementation-package">
 					<p>Have all of your administrative structures set up but not sure how to use them to their best potential? Want to continue to grow and scale your business but hitting operational roadblocks? Streamlined Partners is here for you! We will be your sounding board, your template provider and your extra set of hands. We will also guide you, once you are ready, to hire someone full time to take over this role. You won't even have to read through all of those applications! We are a short term investment in the long term goals of your company!
 						<br /><button id="cta-button">
 					<a
@@ -37,7 +37,7 @@ const Packages = () => {
 				</button>
 						<br /> Starting at $1,850 a month</p>
 				</div>
-				<div id="Onboarding-package">
+				<div id="onboarding-package">
 					<p>Did I hear you will help me hire a full time employee? You will weed out all of the applications that don't fit our needs? Fantastic! <p>Streamlined Partners will assist you in figuring out the type of position you need, writing the job description and sorting through applicants. Our fees are upfront and we don't take recruiter fees. We are here to help you hire and onboard, one and done!</p>
 						<br /><button id="cta-button">
 					<a
