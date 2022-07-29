@@ -10,10 +10,7 @@ const Packages = () => {
 			<h2 id="packages-title">Get Started With Us</h2>
 			<div className="packages">
 				<div id="systemization-package">
-					<p>At Streamlined Partners, we love to see small businesses and enterpenuers succeed.
-						<br />To achieve that goal, you shouldn't have to stress about the administrative back end of your company.
-						<br />We will figure out what software and programs will help you run most efficiently and 
-						<br / >allow you to focus on what really matters - making your business profitable!
+					<p>At Streamlined Partners, we love to see small businesses and enterpenuers succeed. You shouldn't have to stress about the administrative back end of your company. We will figure out what software and programs will help you run most efficiently and allow you to focus on what really matters - making your business profitable!
 						<br /><button id="cta-button">
 					<a
 						id="link"
@@ -21,7 +18,7 @@ const Packages = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						contact us today to schedule a free call to discss your needs
+						Contact us today to schedule a free call to discuss your needs.
 					</a>
 				</button>
 						<br /> Starting at $495</p>

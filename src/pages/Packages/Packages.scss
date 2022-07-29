@@ -18,6 +18,13 @@
 // 	margin: 0 auto;
 // 	background-color: white;
 // }
+#cta-button {
+	background-color: $blue;
+	border: none;
+	border-radius: 13px;
+	text-align: center;
+	margin: 20px 0;
+}
 #systemization-package {
 	border: 5px solid $yellow;
 	border-radius: 15px;
@@ -68,10 +75,3 @@
 
 // }
 
-#cta-button {
-	background-color: $blue;
-	border: none;
-	border-radius: 13px;
-	text-align: center;
-	margin: 20px 0;
-}
