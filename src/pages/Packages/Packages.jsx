@@ -38,7 +38,7 @@ const Packages = () => {
 						<br /> Starting at $1,850 a month</p>
 				</div>
 				<div id="onboarding-package">
-					<p>Did I hear you will help me hire a full time employee? You will weed out all of the applications that don't fit our needs? Fantastic! <p>Streamlined Partners will assist you in figuring out the type of position you need, writing the job description and sorting through applicants. Our fees are upfront and we don't take recruiter fees. We are here to help you hire and onboard, one and done!</p>
+					<p>Did I hear you will help me hire a full time employee? You will weed out all of the applications that don't fit our needs? Fantastic! Streamlined Partners will assist you in figuring out the type of position you need, writing the job description and sorting through applicants. Our fees are upfront and we don't take recruiter fees. We are here to help you hire and onboard, one and done!
 						<br /><button id="cta-button">
 					<a
 						id="link"
