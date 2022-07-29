@@ -14,7 +14,7 @@ const Packages = () => {
 							You shouldn't have to stress about the administrative back end of your company. We will 
 							figure out what software and programs will help you run most efficiently and allow you 
 							to focus on what really matters - making your business profitable!</p>
-							<br /><button id="cta-button">
+							<button id="cta-button">
 						<a
 							id="link"
 							href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
@@ -34,7 +34,7 @@ const Packages = () => {
 							also guide you, once you are ready, to hire someone full time to take over 
 							this role. You won't even have to read through all of those applications! We 
 							are a short term investment in the long term goals of your company!</p>
-							<br /><button id="cta-button">
+							<button id="cta-button">
 						<a
 							id="link"
 							href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
@@ -52,7 +52,7 @@ const Packages = () => {
 							 will assist you in figuring out the type of position you need, writing the 
 							 job description and sorting through applicants. Our fees are upfront and we 
 							 don't take recruiter fees. We are here to help you hire and onboard, one and done!</p>
-							<br /><button id="cta-button">
+							<button id="cta-button">
 						<a
 							id="link"
 							href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
