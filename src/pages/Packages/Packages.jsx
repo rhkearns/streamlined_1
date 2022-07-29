@@ -10,7 +10,10 @@ const Packages = () => {
 				<h2 id="packages-title">Get Started With Us</h2>
 				<div className="packages">
 					<div id="systemization-package">
-						<p>At Streamlined Partners, we love to see small businesses and enterpenuers succeed. You shouldn't have to stress about the administrative back end of your company. We will figure out what software and programs will help you run most efficiently and allow you to focus on what really matters - making your business profitable!
+						<p>At Streamlined Partners, we love to see small businesses and enterpenuers succeed. 
+							You shouldn't have to stress about the administrative back end of your company. We will 
+							figure out what software and programs will help you run most efficiently and allow you 
+							to focus on what really matters - making your business profitable!</p>
 							<br /><button id="cta-button">
 						<a
 							id="link"
@@ -18,13 +21,19 @@ const Packages = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							Contact us today to schedule a <br />free call to discuss your needs.
+							Contact us today to schedule a free call to discuss your needs.
 						</a>
 					</button>
-							<br /> Starting at $495</p>
+							<p> Starting at $495</p>
 					</div>
 					<div id="implementation-package">
-						<p>Have all of your administrative structures set up but not sure how to use them to their best potential? Want to continue to grow and scale your business but hitting operational roadblocks? Streamlined Partners is here for you! We will be your sounding board, your template provider and your extra set of hands. We will also guide you, once you are ready, to hire someone full time to take over this role. You won't even have to read through all of those applications! We are a short term investment in the long term goals of your company!
+						<p>Have all of your administrative structures set up but not sure how to use them to 
+							their best potential? Want to continue to grow and scale your business but hitting 
+							operational roadblocks? Streamlined Partners is here for you! We will be your 
+							sounding board, your template provider and your extra set of hands. We will 
+							also guide you, once you are ready, to hire someone full time to take over 
+							this role. You won't even have to read through all of those applications! We 
+							are a short term investment in the long term goals of your company!</p>
 							<br /><button id="cta-button">
 						<a
 							id="link"
@@ -35,10 +44,14 @@ const Packages = () => {
 							Contact us today to schedule a free call to discuss your needs.
 						</a>
 					</button>
-							<br /> Starting at $1,850 a month</p>
+							<p>Starting at $1,850 a month</p>
 					</div>
 					<div id="onboarding-package">
-						<p>Did I hear you will help me hire a full time employee? You will weed out all of the applications that don't fit our needs? Fantastic! Streamlined Partners will assist you in figuring out the type of position you need, writing the job description and sorting through applicants. Our fees are upfront and we don't take recruiter fees. We are here to help you hire and onboard, one and done!
+						<p>Did I hear you will help me hire a full time employee? You will weed out all of 
+							the applications that don't fit our needs? Fantastic! Streamlined Partners
+							 will assist you in figuring out the type of position you need, writing the 
+							 job description and sorting through applicants. Our fees are upfront and we 
+							 don't take recruiter fees. We are here to help you hire and onboard, one and done!</p>
 							<br /><button id="cta-button">
 						<a
 							id="link"
@@ -49,7 +62,7 @@ const Packages = () => {
 							Contact us today to schedule a free call to discuss your needs.
 						</a>
 					</button>
-							<br /> Starting at $750</p>
+							<p> Starting at $750</p>
 					</div>
 				</div>
 			</div>
