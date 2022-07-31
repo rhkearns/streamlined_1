@@ -82,7 +82,7 @@ const Packages = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							Contact us.
+							Contact us today
 						</a>
 					</button>
 					</div>
