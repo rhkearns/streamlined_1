@@ -13,10 +13,10 @@ const Packages = () => {
 				<div className="packages">
 					<div id="systemization-package">
 						<p>
-							At Streamlined Partners, we love to witness small businesses and
+							At Streamlined Partners, we love to see small businesses and
 							entrepreneurs succeed. Within our systemization package, we work
 							with you to establish systems and an administrative foundation
-							that works for you and your business. By setting you up with the
+							that is appropriate for you and your business. By setting you up with the
 							right tools to track your tasks, manage and communicate with your
 							team, and create an efficient workspace, you are free to focus on
 							what really matters - achieving your goals and finding success!{' '}
