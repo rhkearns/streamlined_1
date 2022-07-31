@@ -10,10 +10,12 @@ const Packages = () => {
 				<h2 id="packages-title">Get Started With Us</h2>
 				<div className="packages">
 					<div id="systemization-package">
-						<p>At Streamlined Partners, we love to see small businesses and enterpenuers succeed. 
-							You shouldn't have to stress about the administrative back end of your company. We will 
-							figure out what software and programs will help you run most efficiently and allow you 
-							to focus on what really matters - making your business profitable!</p>
+						<p>At Streamlined Partners, we love to witness small businesses and entrepreneurs 
+							succeed. Within our systemization package, we work with you to establish systems 
+							and an administrative foundation that works for you and your business. 
+							By setting you up with the right tools to track your tasks, manage and 
+							communicate with your team, and create an efficient workspace, you are 
+							free to focus on what really matters - achieving your goals and finding success! </p>
 							<button id="cta-button">
 						<a
 							id="link"
@@ -21,19 +23,23 @@ const Packages = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							Contact us today to schedule a free call to discuss your needs.
+							What to learn more?
 						</a>
 					</button>
 							<p> Starting at $495</p>
 					</div>
 					<div id="implementation-package">
-						<p>Have all of your administrative structures set up but not sure how to use them to 
-							their best potential? Want to continue to grow and scale your business but hitting 
-							operational roadblocks? Streamlined Partners is here for you! We will be your 
-							sounding board, your template provider and your extra set of hands. We will 
-							also guide you, once you are ready, to hire someone full time to take over 
-							this role. You won't even have to read through all of those applications! We 
-							are a short term investment in the long term goals of your company!</p>
+						<p>The Streamlined Partners Implementation Package is perfect for the 
+							small business or entrepreneur who needs an extra set of hands but 
+							isn't ready to hire a full-time employee just yet. Our team will meet 
+							with you regularly, assist in setting up accountability systems, ensure 
+							you are getting the most out of the work management programs you use, 
+							and any other administrative or operational tasks that arise. You will 
+							also get access to our individually tailored templates and our extensive 
+							network of freelancers for any specialized project. Once you are ready 
+							to hire a full-time employee, we will work with you to determine your 
+							needs, prepare the job description, organize applicants, and schedule 
+							interviews with candidates.</p>
 							<button id="cta-button">
 						<a
 							id="link"
