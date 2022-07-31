@@ -4,6 +4,9 @@ import './Packages.scss';
 // import logos_page_one from 'rhkearns/streamlined_1/src/images/logos_page_1.jpg';
 import tech_icons from '../../images/tech icons.jpg';
 import contactUs from '../../images/contact-us.jpg';
+import implementation from '../../images/Implementation.png';
+import iphone from '../../images/iphone.png';
+import onboarding from '../../images/onboarding.png';
 
 const Packages = () => {
 	return (
@@ -16,10 +19,11 @@ const Packages = () => {
 							At Streamlined Partners, we love to see small businesses and
 							entrepreneurs succeed. Within our systemization package, we work
 							with you to establish systems and an administrative foundation
-							that is appropriate for you and your business. By setting you up with the
-							right tools to track your tasks, manage and communicate with your
-							team, and create an efficient workspace, you are free to focus on
-							what really matters - achieving your goals and finding success!{' '}
+							that is appropriate for you and your business. By setting you up
+							with the right tools to track your tasks, manage and communicate
+							with your team, and create an efficient workspace, you are free to
+							focus on what really matters - achieving your goals and finding
+							success!{' '}
 						</p>
 						<button id="cta-button">
 							<a
@@ -34,7 +38,7 @@ const Packages = () => {
 						<p> Starting at $495</p>
 					</div>
 					<div>
-						<img src={tech_icons} alt="Technology Icons" id="tech-icons" />
+						<img src={iphone} alt="iphone with icons" id="iphone-icons" />
 					</div>
 					<div id="implementation-package">
 						<p>
@@ -64,7 +68,7 @@ const Packages = () => {
 						<p>Starting at $1,850 a month</p>
 					</div>
 					<div>
-						<img src="" alt="" />
+						<img src={implementation} alt="implementation" id="implementation-image" />
 					</div>
 					<div id="onboarding-package">
 						<p>
@@ -92,7 +96,7 @@ const Packages = () => {
 						<p> Starting at $750</p>
 					</div>
 					<div>
-						<img src="" alt="" />
+						<img src={onboarding} alt="Onboarding" id="onboarding-image" />
 					</div>
 					<div id="custom-package">
 						<p>

@@ -20,8 +20,8 @@ const About = () => {
 						company prior to launching Streamlined Partners. The Streamlined
 						Partners team has an experienced team of assistants, project
 						managers, and operations managers that are ready to work with you
-						and your business.
-						Schedule your free consultation today.
+						and your business.</p>
+						<p>Schedule your free consultation today.
 					</p>
 				</div>
 			</div>

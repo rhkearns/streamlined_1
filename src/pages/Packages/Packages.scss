@@ -56,8 +56,10 @@
 	}
 }
 
-#tech-icons,
-#hands {
+#iphone-icons,
+#hands,
+#implementation-image,
+#onboarding-image {
 	width: 100%;
 }
 
@@ -71,7 +73,7 @@
 			' c d '
 			' e f'
 			' g h ';
-		gap: 15px;
+		gap: 30px;
 		width: 85%;
 		margin: 0 auto;
 		margin-bottom: 30px;
@@ -105,5 +107,13 @@
 
 	#custom-package {
 		grid-area: h;
+	}
+
+	#implementation-image {
+		grid-area: c;
+	}
+
+	#onboarding-image {
+		grid-area: f;
 	}
 }
