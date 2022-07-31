@@ -2,7 +2,6 @@ import React from 'react';
 import './Packages.scss';
 // import cover_img from '../../images/cover-img.png';
 // import logos_page_one from 'rhkearns/streamlined_1/src/images/logos_page_1.jpg';
-import tech_icons from '../../images/tech icons.jpg';
 import contactUs from '../../images/contact-us.jpg';
 import implementation from '../../images/Implementation.png';
 import iphone from '../../images/iphone.png';
@@ -17,7 +16,7 @@ const Packages = () => {
 					<div id="systemization-package">
 						<p>
 							At Streamlined Partners, we love to see small businesses and
-							entrepreneurs succeed. Within our systemization package, we work
+							entrepreneurs succeed. Within our <span className="ital">Systemization Package</span>, we work
 							with you to establish systems and an administrative foundation
 							that is appropriate for you and your business. By setting you up
 							with the right tools to track your tasks, manage and communicate
@@ -42,7 +41,7 @@ const Packages = () => {
 					</div>
 					<div id="implementation-package">
 						<p>
-							The Streamlined Partners Implementation Package is perfect for the
+							The Streamlined Partners <span className="ital">Implementation Package</span> is perfect for the
 							small business or entrepreneur who needs an extra set of hands but
 							isn't ready to hire a full-time employee just yet. Our team will
 							meet with you regularly, assist in setting up accountability
@@ -75,7 +74,7 @@ const Packages = () => {
 							At Streamlined Partners, we know how important hiring the right
 							employee is for the success of your business. We will observe your
 							day-to-day processes to create a job description for your ideal
-							candidate. Sorting through the applications you receive can take
+							candidate. <span className="ital"></span> Sorting through the applications you receive can take
 							up so much of your time. We will take that off your plate and send
 							you only the prospective candidates that meet the job
 							qualifications. We will also schedule the interviews for the top
