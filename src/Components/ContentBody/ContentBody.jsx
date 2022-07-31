@@ -2,6 +2,7 @@ import React from 'react';
 // import { Carousel } from 'react-bootstrap';
 import './ContentBody.scss';
 import cover_img from '../../images/cover-img.png';
+import Packages from '../../pages/Packages/Packages'
 
 const ContentBody = () => {
 	return (
@@ -38,7 +39,7 @@ const ContentBody = () => {
 				</button>{' '}
 			</div>
 			<hr className="line" />
-			<div className="outer-service">
+			{/* <div className="outer-service">
 				<h2 id="service-title">Services</h2>
 				<div className="services">
 					<div id="systemization">
@@ -50,7 +51,7 @@ const ContentBody = () => {
 							</li>
 							<li>Cross-channel brand standardization</li>
 							{/* <li>Catalog of technology options tailored to your business</li> */}
-							<li>Calendar scheduling and syncing</li>
+							{/* <li>Calendar scheduling and syncing</li>
 							<li>Full system troubleshooting</li>
 						</ul>
 					</div>
@@ -67,8 +68,8 @@ const ContentBody = () => {
 								Researched network of freelancers for specialized projects
 							</li>
 						</ul>
-					</div>
-					<div id="onboarding">
+					</div> */}
+					{/* <div id="onboarding">
 						<h5>Onboarding</h5>
 						<ul>
 							<li>Assess needs for future hires</li>
@@ -78,8 +79,8 @@ const ContentBody = () => {
 								smoothly{' '}
 							</li>
 						</ul>
-					</div>
-					<div id="accountability">
+					</div> */}
+					{/* <div id="accountability">
 						<h5>Accountability</h5>
 						<ul>
 							<li>Timeline creation</li>
@@ -88,7 +89,7 @@ const ContentBody = () => {
 							<li>Goal markers and check ins</li>
 						</ul>
 					</div>
-				</div>
+				</div> */}
 				{/* <button id="cta-button">
 				<a
 					id="link"
@@ -97,7 +98,8 @@ const ContentBody = () => {
 					Contact Us
 				</a>
 			</button> */}
-			</div>
+			{/* </div> */}
+			<Packages />
 		</div>
 	);
 };
