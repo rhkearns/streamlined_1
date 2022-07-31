@@ -23,7 +23,7 @@ const Packages = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							What to learn more?
+							Want to learn more?
 						</a>
 					</button>
 							<p> Starting at $495</p>
@@ -47,17 +47,20 @@ const Packages = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							Contact us today to schedule a free call to discuss your needs.
+							Ready to invest in your company's future?
 						</a>
 					</button>
 							<p>Starting at $1,850 a month</p>
 					</div>
 					<div id="onboarding-package">
-						<p>Did I hear you will help me hire a full time employee? You will weed out all of 
-							the applications that don't fit our needs? Fantastic! Streamlined Partners
-							 will assist you in figuring out the type of position you need, writing the 
-							 job description and sorting through applicants. Our fees are upfront and we 
-							 don't take recruiter fees. We are here to help you hire and onboard, one and done!</p>
+						<p>At Streamlined Partners, we know how important hiring the right employee 
+							is for the success of your business. We will observe your day-to-day processes 
+							to create a job description for your ideal candidate. Sorting through the 
+							applications you receive can take up so much of your time. We will take 
+							that off your plate and send you only the prospective candidates that meet 
+							the job qualifications. We will also schedule the interviews for the top 
+							candidates that you select. Once you have made the hire, we will ensure 
+							that person has all of the tools needed to seamlessly join your team.</p>
 							<button id="cta-button">
 						<a
 							id="link"
@@ -65,7 +68,7 @@ const Packages = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							Contact us today to schedule a free call to discuss your needs.
+							Need a hand hiring?
 						</a>
 					</button>
 							<p> Starting at $750</p>
