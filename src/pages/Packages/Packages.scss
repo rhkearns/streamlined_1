@@ -36,6 +36,7 @@
 	width: 95%;
 	margin: 0 auto;
 	background-color: white;
+	align-items: center;
 }
 
 #systemization-package,
@@ -54,6 +55,11 @@
 		margin: 15px 0;
 	}
 }
+
+#tech-icons {
+	width: 100%;
+}
+
 @media only screen and (min-width: 860px) {
 	.packages {
 		text-align: left;
@@ -86,6 +92,11 @@
 	}
 	#custom-package{
 		grid-area: h;
+	}
+
+	#tech-icons {
+		grid-area: b;
+		width: 100%;
 	}
 
 }

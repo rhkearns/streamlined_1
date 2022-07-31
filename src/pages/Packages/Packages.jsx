@@ -2,6 +2,7 @@ import React from 'react';
 import './Packages.scss'
 // import cover_img from '../../images/cover-img.png';
 // import logos_page_one from 'rhkearns/streamlined_1/src/images/logos_page_1.jpg';
+import tech_icons from "../../images/tech icons.jpg"
 
 const Packages = () => {
 	return (
@@ -27,6 +28,9 @@ const Packages = () => {
 						</a>
 					</button>
 							<p> Starting at $495</p>
+					</div>
+					<div>
+						<img src={tech_icons} alt="Technology Icons" id="tech-icons"/>
 					</div>
 					<div id="implementation-package">
 						<p>The Streamlined Partners Implementation Package is perfect for the 
