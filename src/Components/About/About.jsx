@@ -21,6 +21,7 @@ const About = () => {
 						Partners team has an experienced team of assistants, project
 						managers, and operations managers that are ready to work with you
 						and your business.
+						Schedule your free consultation today.
 					</p>
 				</div>
 			</div>
