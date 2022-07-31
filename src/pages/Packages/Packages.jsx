@@ -74,8 +74,9 @@ const Packages = () => {
 							<p> Starting at $750</p>
 					</div>
 					<div id="custom-package">
-						<p>Don't see what you are looking for? Contact us below to set up a call to go over your specific needs and we will create a custom package for you!</p>
-							<br /><button id="cta-button">
+						<p>Don't see what you are looking for? Contact us below to set up a call 
+							to go over your specific needs and we will create a custom package for you!</p>
+						<button id="cta-button">
 						<a
 							id="link"
 							href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
