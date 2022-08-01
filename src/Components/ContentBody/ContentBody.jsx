@@ -13,7 +13,6 @@ const ContentBody = () => {
 					We work with small businesses and entrepreneurs to get them set up for
 					success and stay on track
 				</h2>
-				{/* <h2>Streamline your Business</h2> */}
 				<p>
 					Whether you are starting a new small business or trying to organize
 					your existing business infrastructure, Streamlined Partners will work

@@ -8,12 +8,13 @@
 	margin: 50px 0;
 }
 
-#cta-button {
+#package-button {
 	background-color: $blue;
 	border: none;
 	border-radius: 13px;
 	text-align: center;
 	margin: 20px 0;
+	width: fit-content;
 }
 
 #link {
@@ -23,7 +24,7 @@
 }
 
 #packages-title {
-	font-size: 40px;
+	font-size: 32px;
 	color: $blue;
 	margin: 40px 0 40px;
 }
@@ -47,9 +48,9 @@
 #implementation-package,
 #onboarding-package,
 #custom-package {
-	border: 5px solid $yellow;
+	border: 3px solid $yellow;
 	border-radius: 15px;
-	padding: 15px 25px 25px 25px;
+	padding: 15px 25px;
 	color: $black;
 	background-color: rgba(255, 255, 255);
 
@@ -67,17 +68,17 @@
 	width: 100%;
 }
 
+.reverse-div {
+	flex-direction: row-reverse;
+}
+
 @media only screen and (min-width: 860px) {
 	.packages {
 		text-align: left;
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-areas:
-			' a b '
-			' c d '
-			' e f'
-			' g h ';
+		display: flex;
 		gap: 30px;
+		flex-direction: column;
+		align-items: center;
 		width: 85%;
 		margin: 0 auto;
 		margin-bottom: 30px;
@@ -87,37 +88,40 @@
 		background-color: white;
 	}
 
+	.word-side {
+		display: flex;
+		flex-direction: column;
+		width: 45%;
+		align-items: center;
+	}
+
+	#onboarding-package,
+	
 	#systemization-package {
-		grid-area: a;
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+		justify-content: space-evenly;
 	}
 
-	#tech-icons {
-		grid-area: b;
-		width: 100%;
-	}
-
-	#implementation-package {
-		grid-area: d;
-	}
-
-	#onboarding-package {
-		grid-area: e;
-	}
-
-	#hands {
-		grid-area: f;
-		width: 100%;
-	}
-
+	#implementation-package,
 	#custom-package {
-		grid-area: h;
+		display: flex;
+		flex-direction: row-reverse;
+		gap: 15px;
+		justify-content: space-evenly;
 	}
 
-	#implementation-image {
-		grid-area: c;
+	.img-div {
+		width: 45%;
+		display: flex;
+		align-items: center;
 	}
 
-	#onboarding-image {
-		grid-area: f;
-	}
+	// .reverse-div {
+	// 	flex-direction: row-reverse;
+	// }
+
+
+
 }
