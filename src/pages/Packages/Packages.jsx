@@ -83,7 +83,7 @@ const Packages = () => {
 						<div className="word-side">
 							<p>
 								At Streamlined Partners, we know how important hiring the right
-								employee is for the success of your business. We will observe
+								employee is for the success of your business. With our <span className="ital">Onboarding Package</span>, we will observe
 								your day-to-day processes to create a job description for your
 								ideal candidate. <span className="ital"></span> Sorting through
 								the applications you receive can take up so much of your time.
