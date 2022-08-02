@@ -3,8 +3,8 @@ import './Packages.scss';
 // import cover_img from '../../images/cover-img.png';
 // import logos_page_one from 'rhkearns/streamlined_1/src/images/logos_page_1.jpg';
 import contactUs from '../../images/contact-us.jpg';
-import implementation from '../../images/Implementation.png';
-import iphone from '../../images/iphone.png';
+import implementation from '../../images/implementation.jpg';
+import systemization from '../../images/systemization.jpg';
 import onboarding from '../../images/onboarding.png';
 
 const Packages = () => {
@@ -39,7 +39,7 @@ const Packages = () => {
 							
 						</div>
 						<div className="img-div">
-							<img src={iphone} alt="iphone with icons" id="iphone-icons" />
+							<img src={systemization} alt="iphone with icons" id="iphone-icons" />
 						</div>
 					</div>
 					<div id="implementation-package" className="reverse-div">
