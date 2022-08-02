@@ -18,8 +18,7 @@ const About = () => {
 						Thinkertales, Arena Holdings, Cultural Road Mapp, Time Inc.,
 						ArtMuse, and the Bellevue Association. Samantha also ran her own CPG
 						company prior to launching Streamlined Partners. The Streamlined
-						Partners team has an experienced team of assistants, project
-						managers, and operations managers that are ready to work with you
+						Partners team is ready to work with you
 						and your business.</p>
 						<p>Schedule your free consultation today.
 					</p>

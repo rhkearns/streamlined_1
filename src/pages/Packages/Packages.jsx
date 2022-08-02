@@ -17,7 +17,7 @@ const Packages = () => {
 						<div class="word-side">
 							<p>
 								At Streamlined Partners, we love to see small businesses and
-								entrepreneurs succeed. Within our{' '}
+								entrepreneurs succeed. With our{' '}
 								<span className="ital">Systemization Package</span>, we work
 								with you to establish systems and an administrative foundation
 								that is appropriate for you and your business. By setting you up
