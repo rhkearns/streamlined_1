@@ -4,7 +4,7 @@ import ContentBody from "../../Components/ContentBody/ContentBody"
 import Footer from '../../Components/Footer/Footer';
 // import Nav from '../../Components/Nav/Nav';
 import About from '../../Components/About/About';
-import Testimonials from '../../Components/Testimonials/Testimonials';
+// import Testimonials from '../../Components/Testimonials/Testimonials';
 
 const Home = () => {
 	return (
@@ -14,7 +14,7 @@ const Home = () => {
 			<hr className="line" />
 			{/* <Contact /> */}
 			{/* <hr className="line" /> */}
-			<Testimonials />
+			{/* <Testimonials /> */}
 			<hr className="line" />
 			<About />
 			{/* <Nav /> */}
