@@ -14,7 +14,7 @@ const Home = () => {
 			<hr className="line" />
 			{/* <Contact /> */}
 			{/* <hr className="line" /> */}
-			{/* <Testimonials /> */}
+			<Testimonials />
 			<hr className="line" />
 			<About />
 			{/* <Nav /> */}
