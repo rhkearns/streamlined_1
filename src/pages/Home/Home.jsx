@@ -13,9 +13,9 @@ const Home = () => {
 			<ContentBody />
 			<hr className="line" />
 			{/* <Contact /> */}
-			<hr className="line" />
-			<Testimonials />
 			{/* <hr className="line" /> */}
+			<Testimonials />
+			<hr className="line" />
 			<About />
 			{/* <Nav /> */}
 			<Footer />
