@@ -2,9 +2,9 @@ import React from 'react';
 import './Testimonials.scss';
 import { Carousel } from 'react-bootstrap';
 import testimonialData from '../../common/testimonialData';
-import Testimonial_Carly from '../../images/testimonials/Testimonial_Carly.jpg'
-import Testimonial_Deborah from '../../images/testimonials/Testimonial_Deborah.jpg'
-import Testimonial_Rocio from '../../images/testimonials/Testimonial_Rocio.jpg'
+import Testimonial_Carly from 'rhkearns/streamlined_1/src/images/testimonials/Testimonial_Carly.jpg'
+import Testimonial_Deborah from 'rhkearns/streamlined_1/src/images/testimonials/Testimonial_Deborah.jpg'
+import Testimonial_Rocio from 'rhkearns/streamlined_1/src/images/testimonials/Testimonial_Rocio.jpg'
 
 const Testimonials = () => {
 	console.log(testimonialData);
