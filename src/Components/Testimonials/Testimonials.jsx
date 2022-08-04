@@ -2,8 +2,9 @@ import React from 'react';
 import './Testimonials.scss';
 import { Carousel } from 'react-bootstrap';
 import testimonialData from '../../common/testimonialData';
-import Testimonial_Carly from '../../images/testimonials/Testimonial_Carly.png'
-import Testimonial_Deborah from '../../images/testimonials/Testimonial_Deborah.png'
+import Testimonial_Carly from '../../images/testimonials/Testimonial_Carly.jpg'
+import Testimonial_Deborah from '../../images/testimonials/Testimonial_Deborah.jpg'
+import Testimonial_Rocio from '../../images/testimonials/Testimonial_Rocio.jpg'
 
 const Testimonials = () => {
 	console.log(testimonialData);
@@ -13,6 +14,8 @@ const Testimonials = () => {
 				return Testimonial_Carly;
 			case 'liberoCanto':
 				return Testimonial_Deborah;
+			case 'Rocio':
+				return Testimonial_Rocio;
 			default:
 				break;
 		}
