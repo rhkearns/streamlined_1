@@ -16,7 +16,7 @@ const testimonialData = [
     company: "Rocio",
     body: "Working with Samantha has been incredibly beneficial to the day-to-day operations of my different businesses: my consultancy as well as my start-up and collaborations. She has assisted me with scheduling meetings, staying on top of my calendars, and organizing virtual events across all these work streams. She has also improved my business’ technological aspects, including updating my website and consolidating email inboxes to better deal with complexity. Samantha is very well organized, has been an amazing asset to my businesses, and a joy to work with. I would recommend her to anyone. - Rocio B.",
     imgTitle: "Rocio",
-  },
+  }
 ];
 
 export default testimonialData;
