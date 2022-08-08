@@ -25,7 +25,7 @@ const Testimonials = () => {
 			<h1>Testimonials</h1>
 			<Carousel variant="dark">
 				{testimonialData.map(testimonial => (
-					<Carousel.Item>
+					<Carousel.Item interval={500}>
 						<img className='testimonial-img' src={findImage(testimonial.imgTitle)} alt={testimonial.body} />
 					</Carousel.Item>
 				))}
