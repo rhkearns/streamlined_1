@@ -1,6 +1,6 @@
 import React from 'react';
 import ContentBody from '../../Components/ContentBody/ContentBody';
-// import Contact from '../../Components/Contact/Contact';
+import Contact from '../../Components/Contact/Contact';
 import Footer from '../../Components/Footer/Footer';
 // import Nav from '../../Components/Nav/Nav';
 import About from '../../Components/About/About';
@@ -13,9 +13,9 @@ const Home = () => {
 		<div>
 			{/* <Nav /> */}
 			<ContentBody />
-			<hr className="line" />
-			{/* <Contact /> */}
 			{/* <hr className="line" /> */}
+			<Contact />
+			<hr className="line" />
 			{!isMobile && <Testimonials id="testimonials-to-hide" />}
 			{!isMobile && <hr className="line" />}
 			<About />

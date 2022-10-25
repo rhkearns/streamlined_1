@@ -22,7 +22,7 @@ const Testimonials = () => {
 	}
 	return (
 		<div id="testimonials">
-			<h1>Testimonials</h1>
+			<h2 id="testimonial-header">Testimonials</h2>
 			<Carousel variant="dark">
 				{testimonialData.map(testimonial => (
 					<Carousel.Item interval={20000}>

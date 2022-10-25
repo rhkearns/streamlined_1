@@ -1,19 +1,26 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Contact.scss';
-import contactUs from '../../images/contact-us.jpg'
+import contactUs from '../../images/contact-us.jpg';
+import techicons from '../../images/tech icons.jpg';
 
 const Contact = () => {
 	return (
-		<div className="outer-section">
-			<div className="contact-section">
-				<h1 id="contact-header">Contact Us</h1>
-				<div id="contact-blurb">
+		// <div className="outer-section">
+		<div className="details-section">
+			<h2 id="details-header">Work with us</h2>
+			<div id="details-blurb">
+				<div class="word-side-details">
 					<p>
-						Want more information? Want to get started but don't know where to
-						begin?
+						Check out our packages, which can be{' '}
+						<Link to={'/packages'}>found here</Link>.
 					</p>
-					{/* <Link to={'/packages'}><p id="package-link">Click here to view packages, starting at $495.</p></Link> */}
+					<p>Need more information?</p>
+					<p>Want to get started but don't know where to begin?</p>
+					<p>
+						Does hearing things like work management systems, CRM, and cloud
+						storage stress you out?
+					</p>
 					<p>
 						Contact us today to schedule a free consultation where we will sit
 						down with you and create a plan based on your needs.
@@ -39,9 +46,12 @@ const Contact = () => {
 						</a>
 					</p>
 				</div>
+				<div className="img-div-details">
+					<img src={techicons} alt="tech" id="tech" />
+				</div>
 			</div>
-				<img src={contactUs} alt="hands" id="hands"/>
 		</div>
+		// </div>
 	);
 };
 

@@ -1,43 +1,58 @@
 @import '../../common/colors.scss';
 
-.contact-section {
+
+.details-section {
 	padding: 15px 25px 15px 25px;
-	margin: 0 15px 0;
+	margin: 0 15%;
+	// padding: 15px 25px;
+	border: 1px solid $black;
+	border-radius: 15px;
+	padding: 15px 25px;
+	background-color: $yellow-transparent;
+	box-shadow: 2px 2px;
+	
 }
 
-.outer-section {
-	display: flex;
-	flex-direction: column;
-	// border: 5px solid $blue-transparent;
-	// border-radius: 15px;
-	// margin: 0 15px;
-	align-items: center;
-	margin-bottom: 15px;
-	// background-color: rgba(255, 255, 255, 0.856);
-	background-color: white;
+// #contact-header {
+// 	color: $blue;
+// 	text-align: center;
+// 	margin: 0 0 12px;
+// 	font-size: 32px;
+// }
 
-}
+// .outer-section {
+// 	padding: 15px 25px;
+// 	display: flex;
+// 	flex-direction: column;
 
-#contact-header {
+// 	border-radius: 15px;
+// 	margin: 0 15px;
+// 	align-items: center;
+// 	margin-bottom: 15px;
+// 	background-color: rgba(255, 255, 255, 0.856);
+// 	background-color: white;
+// }
+
+#details-header {
 	color: $blue;
-	text-align: center;
-	margin: 0 0 8px;
-	font-size: 32px;
 }
 
-#contact-blurb {
-	color: $black;
-	font-size: 20px;
-}
-
-#contact-blurb > p {
+#details-blurb {
 	text-align: left;
+	color: $black;
+	font-size: 23px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0 0 20px;
 }
 
-#hands {
+#tech {
 	width: 330px;
-	padding: 0 15px 15px;
-	// object-fit: scale-down;
+	// padding: 0 15px 15px;
+	// width: 100%;
+	border: 1px  solid $black;
+	box-shadow: 2px 2px;
+	text-align: center;
 }
 
 a {
@@ -48,33 +63,63 @@ a {
 	text-align: left;
 }
 
+.img-div-details {
+	text-align: center;
+}
+
 // @media only screen and (min-width: 950px) {
 
 // }
 
 
 @media only screen and (min-width: 960px) {
-	.contact-section {
+	.details-section {
 		flex-direction: row;
 	}
 
-	.outer-section {
-		flex-direction: row;
-	}
-
-	#contact-header {
-		margin: 0 15px 0;
+	#details-header {
+		text-align: center;
+		margin: 0 0 22px;
 		font-size: 32px;
 	}
 
-	#contact-blurb {
-		margin: 0 15px 0;
-		text-align: center;
+	#details-blurb {
+		text-align: left;
+		color: $black;
+		font-size: 23px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin: 0 0 20px;
+	}
+	.word-side-details {
+		display: flex;
+		flex-direction: column;
+		width: 45%;
+		align-items: left;
+	}
+	
+	#details-blurb {
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+		justify-content: space-evenly;
 	}
 
-	#hands {
-		width: 500px;
-		padding: 15px;
+	.img-div-details {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
 	}
+
+	// #tech {
+	// 	width: 500px;
+	// 	padding: 15px;
+	// }
+	
+	// .outer-section {
+	// 	flex-direction: row;
+	// }
 
 }

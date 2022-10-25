@@ -1,20 +1,19 @@
 @import '../../common/colors.scss';
 
 .about-section {
-	padding: 15px 25px 15px 25px;
-	margin: 5px 15px;
+	padding: 10px 0 10px 0;
 }
 
 #outer-section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	// border: 5px solid $blue-transparent;
-	// border-radius: 15px;
-	// margin: 0 15px;
-	// background-color: rgba(255, 255, 255, 0.856);
-	background-color: white;
-	margin: 0 30px;
+	border: 1px solid $black;
+	margin: 0 15%;
+	border-radius: 15px;
+	padding: 15px 25px;
+	background-color: $yellow-transparent;
+	box-shadow: 2px 2px;
 }
 
 .line {
@@ -25,36 +24,65 @@
 	color: $blue;
 	font-size: 32px;
 	text-align: center;
-	margin: 0px 0px 22px;
+	// margin: 0px 0px 22px;
 }
 
 #about-blurb {
 	color: $black;
 	font-size: 20px;
 	text-align: left;
-	margin: 0 0 20px;
+	// margin: 0 0 20px;
 }
 
 #windows {
-	padding: 15px 0 15px 15px;
 	width: 330px;
+	border: 1px solid $black;
+	box-shadow: 2px 2px;
 }
 
 .ital {
 	font-style: italic;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1340px) {
 	.about-section {
-		flex-direction: row;
+		display: flex;
+		flex-direction: row-reverse;
+		gap: 35px;
+	}
+
+	#about-header {
+		text-align: center;
+		// margin: 0 0 22px;
+		font-size: 32px;
 	}
 
 	#outer-section {
-		flex-direction: row-reverse;
-		margin-left: 50px;
+		margin: 0 15%;
+	}
+
+	#about-blurb {
+		text-align: left;
+		color: $black;
+		font-size: 23px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		// margin: 0 0 20px;
+	}
+
+	#img-div-about {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
 	}
 
 	#windows {
-		width: 500px;
+		width: 330px;
+	}
+
+	p {
+		margin-bottom: 0;
 	}
 }

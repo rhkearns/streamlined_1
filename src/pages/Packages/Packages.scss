@@ -10,11 +10,12 @@
 
 #package-button {
 	background-color: $blue;
-	border: none;
-	border-radius: 13px;
+	border: 1px solid $black;
+	border-radius: 15px;
 	text-align: center;
 	margin: 20px 0;
 	width: fit-content;
+	box-shadow: 2px 2px;
 }
 
 #link {
@@ -30,7 +31,7 @@
 }
 
 .outer-packages {
-	margin:15px 0px 15px 0px;
+	margin: 15px 0px 15px 0px;
 }
 
 .packages {
@@ -44,21 +45,29 @@
 	align-items: center;
 }
 
+#systemization-price,
+#implementation-price,
+#onboarding-price {
+	margin-bottom: 0;
+	font-size: 22px;
+}
+
 #systemization-package,
 #implementation-package,
 #onboarding-package,
 #custom-package {
-	border: 3px solid $yellow;
+	border: 1px solid $black;
 	border-radius: 15px;
 	padding: 15px 25px;
 	color: $black;
-	background-color: rgba(255, 255, 255);
+	background-color: $yellow-transparent;
+	box-shadow: 2px 2px;
+}
 
-	h5 {
-		color: $blue;
-		font-size: 30px;
-		margin: 15px 0;
-	}
+h5 {
+	color: $blue;
+	font-size: 30px;
+	margin: 15px 0;
 }
 
 #iphone-icons,
@@ -66,6 +75,8 @@
 #implementation-image,
 #onboarding-image {
 	width: 100%;
+	border: 1px  solid $black;
+	box-shadow: 2px 2px;
 }
 
 .reverse-div {
@@ -76,16 +87,16 @@
 	.packages {
 		text-align: left;
 		display: flex;
-		gap: 100px;
+		gap: 30px;
 		flex-direction: column;
 		align-items: center;
-		width: 85%;
+		width: 70%;
 		margin: 0 auto;
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 	}
 
 	.outer-packages {
-		background-color: white;
+		background-color: rgb(255, 255, 255);
 	}
 
 	.word-side {
@@ -112,15 +123,10 @@
 	}
 
 	.img-div {
-		width: 45%;
+		width: 50%;
 		display: flex;
+		flex-direction: column;
 		align-items: center;
+		justify-content: space-evenly;
 	}
-
-	// .reverse-div {
-	// 	flex-direction: row-reverse;
-	// }
-
-
-
 }

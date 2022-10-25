@@ -35,7 +35,8 @@ margin: 10px 75px 10px 75px;
 	border: none;
 	border-radius: 13px;
 	text-align: center;
-	margin: 20px 0;
+	margin: 4px 0px 4px 0px;
+	box-shadow: 2px 2px;
 }
 
 #link {
@@ -44,12 +45,23 @@ margin: 10px 75px 10px 75px;
 	text-decoration: none;
 }
 
-#top-line {
+.top-line {
+	color: $black;
+	font-size: 24px;
+	// width: 50%;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	margin: 0 18%;
+}
+
+#heading {
 	color: $blue;
-	font-size: 32px;
+	font-size: 45px;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin: 100px 20px 0px 20px;
 
 }
 
