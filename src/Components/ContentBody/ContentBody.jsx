@@ -4,7 +4,7 @@ import './ContentBody.scss';
 // import cover_img from '../../images/cover-img.png';
 // import Packages from '../../pages/Packages/Packages';
 // import Background from '../../images/Background6a.png';
-import contentphoto from '../../images/contentphoto.png';
+import content from '../../images/content.png';
 
 const ContentBody = () => {
 	return (
@@ -27,8 +27,8 @@ const ContentBody = () => {
 						you are ready. We work remotely allowing us to work with companies
 						wherever they are.
 					</p>
-				</div>
-				<button id="cta-button">
+					</div>
+								<button id="cta-button">
 					<a
 						id="link"
 						href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
@@ -38,10 +38,10 @@ const ContentBody = () => {
 						Contact Us
 					</a>
 				</button>
+			
+				</div>
+			<div id='photo'><img src={content} alt="content" id="content" />
 			</div>
-			<div id='photo'><img src={contentphoto} alt="contentphoto" id="contentphoto" />
-			</div>
-			<hr className="line" />
 		</div>
 	);
 };

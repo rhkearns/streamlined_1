@@ -28,10 +28,10 @@
 	justify-items: center;
 }
 
-#contentphoto{
+
+#content{
 	width: 100%;
 	margin: 30px 0 10px 0;
-	// padding-left: 40px;
 	border-radius: 15px;
 	color: $black;
 	justify-content: center;
@@ -81,17 +81,18 @@
 
 @media only screen and (min-width: 1025px) {
 	#pitch {
-		display: flex;
-		flex-direction: row;
-
-		}
+		display: grid;
+		grid-template-columns: 65% 35%;
+		grid-template-rows: none;
+		grid-template-areas: ' a b ';
+		width: 84%;
+	}
 
 	#content-body {
-		display: flex;
-		flex-direction: row;
+		grid-column: 1/2;
+		grid-area: a;
 		margin-top: 150px;
 		border: 1px solid $black;
-		width: 50%;
 		border-radius: 15px;
 		padding: 15px 25px;
 		color: $black;
@@ -108,28 +109,24 @@
 		}
 
 	#photo{
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		flex-basis: 100%;
-		flex: 1;
-		margin: 150px 15px 15px 31px;
+		grid-column: 2/2;
+		grid-area: b;
+		margin: 150px 0px 0px 16px;
+		align-self: center;
 	}
 
-	#contentphoto{
+	#content{
 		width: 100%;
 		border-radius: 15px;
 		color: $black;
-		justify-content: space-evenly;
-		margin: auto;
-	}
+		// justify-content: space-evenly;
+		}
 
 	#topsection {
 		text-align: left;
-	
 		}
 
 	#pitch {
-		margin: 0 8% 40px 8%;
+		margin: 0 8% 16px 8%;
 	}
 }

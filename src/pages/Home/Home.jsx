@@ -13,7 +13,7 @@ const Home = () => {
 		<div>
 			{/* <Nav /> */}
 			<ContentBody />
-			{/* <hr className="line" /> */}
+			<hr className="line" />
 			<Contact />
 			<hr className="line" />
 			{!isMobile && <Testimonials id="testimonials-to-hide" />}
