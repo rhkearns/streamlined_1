@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Contact.scss';
-import contactUs from '../../images/contact-us.jpg';
+// import contactUs from '../../images/contact-us.jpg';
 import techicons from '../../images/tech icons.jpg';
 
 const Contact = () => {

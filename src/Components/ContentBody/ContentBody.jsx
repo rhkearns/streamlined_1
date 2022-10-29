@@ -1,9 +1,9 @@
 import React from 'react';
 // import { Carousel } from 'react-bootstrap';
 import './ContentBody.scss';
-import cover_img from '../../images/cover-img.png';
-import Packages from '../../pages/Packages/Packages';
-import Background from '../../images/Background6a.png';
+// import cover_img from '../../images/cover-img.png';
+// import Packages from '../../pages/Packages/Packages';
+// import Background from '../../images/Background6a.png';
 import contentphoto from '../../images/contentphoto.png';
 
 const ContentBody = () => {
