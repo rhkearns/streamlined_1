@@ -36,6 +36,13 @@
 	font-style: italic;
 }
 
+#windows {
+	width: 330px;
+	border-radius: 15px;
+	box-shadow: 2px 2px;
+	text-align: center;
+}
+
 @media only screen and (min-width: 1340px) {
 	.about-section {
 		display: flex;
@@ -63,7 +70,7 @@
 	}
 
 	#windows {
-		// width: 50%;
+		width: 50%;
 		width: 330px;
 		display: flex;
 		flex-direction: column;
