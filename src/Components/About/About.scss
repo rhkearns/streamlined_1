@@ -43,7 +43,7 @@
 	text-align: center;
 }
 
-@media only screen and (min-width: 1340px) {
+@media only screen and (min-width: 960px) {
 	.about-section {
 		display: flex;
 		flex-direction: row-reverse;
@@ -67,6 +67,12 @@
 		padding-top: 10px;
 		padding-bottom: 10px;
 		// margin: 0 0 20px;
+	}
+
+	#img-div-about {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 	}
 
 	#windows {

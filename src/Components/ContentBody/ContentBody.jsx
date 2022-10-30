@@ -11,7 +11,8 @@ const ContentBody = () => {
 		<div id="pitch">
 			<div id="content-body">
 				<h2 id="heading">
-					Operations Consultants and Fractional COOs to optimize your business operations</h2>
+					Operations Consultants and Fractional COOs to optimize your business
+				</h2>
 				<div id="topsection">
 					<p class="top-line">
 						We work with business owners and entrepreneurs to get their
