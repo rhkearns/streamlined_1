@@ -8,8 +8,7 @@
 	border-radius: 15px;
 	padding: 15px 25px;
 	background-color: $yellow-transparent;
-	box-shadow: 2px 2px;
-	
+	box-shadow: 2px 2px black;	
 }
 
 #details-header {
@@ -21,8 +20,6 @@
 	text-align: left;
 	color: $black;
 	font-size: 23px;
-	// padding-top: 10px;
-	// padding-bottom: 10px;
 	margin: 0 0 20px;
 }
 
@@ -30,7 +27,7 @@
 	width: 100%;
 	// border: 1px  solid $black;
 	border-radius: 15px;
-	box-shadow: 2px 2px;
+	box-shadow: 2px 2px black;
 	text-align: center;
 }
 
@@ -92,7 +89,7 @@ a {
 	width: 425px;
 	// border: 1px  solid $black;
 	border-radius: 15px;
-	box-shadow: 2px 2px;
+	box-shadow: 2px 2px black;
 	text-align: center;
 }
 }

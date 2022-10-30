@@ -11,7 +11,7 @@ const Packages = () => {
 	return (
 		<div id="packages-page">
 			<div className="outer-packages">
-				<h2 id="packages-title">Work with us</h2>
+				{/* <h2 id="packages-title">Work with us</h2> */}
 				<div className="packages">
 					<div id="systemization-package">
 						<div class="word-side">
@@ -52,15 +52,17 @@ const Packages = () => {
 								The Streamlined Partners{' '}
 								<span className="ital">Implementation Package</span> is perfect
 								for the business owner or entrepreneur who needs an extra set of
-								hands but isn't ready to hire a full-time employee just yet. We will be your fractional COO. Our team will meet with you regularly, assist in setting up
-								accountability systems, ensure you are getting the most out of
-								the work management programs you use, and any other
-								administrative or operational tasks that arise. You will also
-								get access to our individually tailored templates and our
-								extensive network of freelancers for any specialized project.
-								Once you are ready to hire a full-time employee, we will work
-								with you to determine your needs, prepare the job description,
-								organize applicants, and schedule interviews with candidates.
+								hands but isn't ready to hire a full-time employee just yet. We
+								will be your fractional COO. Our team will meet with you
+								regularly, assist in setting up accountability systems, ensure
+								you are getting the most out of the work management programs you
+								use, and any other administrative or operational tasks that
+								arise. You will also get access to our individually tailored
+								templates and our extensive network of freelancers for any
+								specialized project. Once you are ready to hire a full-time
+								employee, we will work with you to determine your needs, prepare
+								the job description, organize applicants, and schedule
+								interviews with candidates.
 							</p>
 							<button class="package-button">
 								<a
@@ -68,7 +70,9 @@ const Packages = () => {
 									href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
 									target="_blank"
 									rel="noopener noreferrer"
-								>Ready to invest in your company's future?</a>
+								>
+									Ready to invest in your company's future?
+								</a>
 							</button>
 						</div>
 						<div className="img-div">
@@ -86,9 +90,13 @@ const Packages = () => {
 								At Streamlined Partners, we know how important hiring the right
 								employee is for the success of your business. With our{' '}
 								<span className="ital">Onboarding Package</span>, we will
-								observe your day-to-day processes to create a job description for your ideal candidate. We will organize the incoming applications and send you the prospective candidates that meet the job qualifications.
-								We will	also schedule all of the interviews for you. Once you have made the hire, we will ensure that person
-								has all of the tools needed to seamlessly join your team.
+								observe your day-to-day processes to create a job description
+								for your ideal candidate. We will organize the incoming
+								applications and send you the prospective candidates that meet
+								the job qualifications. We will also schedule all of the
+								interviews for you. Once you have made the hire, we will ensure
+								that person has all of the tools needed to seamlessly join your
+								team.
 							</p>
 							<button class="package-button">
 								<a
@@ -109,11 +117,12 @@ const Packages = () => {
 					<div id="custom-package" className="reverse-div">
 						<div className="word-side">
 							<p>
-								Need a little bit of everything? Not sure what you neeed? We are more than happy to sit
-								down with you, hear your needs, and create a package that is
-								tailored to you. As no two companies are exactly the same and
-								there isn't a one size fits all solution for everyone, we will
-								help you find the solutions that are perfect for your business!
+								Need a little bit of everything? Not sure what you neeed? We are
+								more than happy to sit down with you, hear your needs, and
+								create a package that is tailored to you. As no two companies
+								are exactly the same and there isn't a one size fits all
+								solution for everyone, we will help you find the solutions that
+								are perfect for your business!
 							</p>
 							<button class="package-button">
 								<a
@@ -127,7 +136,7 @@ const Packages = () => {
 							</button>
 						</div>
 						<div className="img-div">
-						<img src={contactUs} alt="hands" id="hands" />
+							<img src={contactUs} alt="hands" id="hands" />
 						</div>
 					</div>
 				</div>

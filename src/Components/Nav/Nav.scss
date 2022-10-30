@@ -1,6 +1,49 @@
 @import '../../common/colors.scss';
 
-.nav {
-  height: 5px;
-  background-image: radial-gradient($blue 5%, $yellow 15%, $blue 65%);
+nav {
+  margin-top: 100px;
+  height: 40px;
+  background: white;
+  color: white;
+  text-align: left;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  li {
+    list-style: none;
+    font-size: 20.8px;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
+@media only screen and (min-width: 860px) {
+nav {
+  margin-top: 90px;
+  height: 40px;
+  background: white;
+  color: white;
+  text-align: left;
+  align-items: right;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 3px;
+  }
+
+  li {
+    list-style: none;
+    font-size: 20.8px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}}
