@@ -23,7 +23,7 @@
 	border-radius: 15px;
 	text-align: center;
 	margin: 20px 0;
-	width: fit-content;
+	// width: fit-content;
 	box-shadow: 2px 2px;
 	justify-items: center;
 }
@@ -46,7 +46,7 @@
 
 .top-line {
 	color: $black;
-	font-size: 22px;
+	font-size: 19.2px;
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -54,13 +54,12 @@
 
 #heading {
 	color: $blue;
-	font-size: 45px;
+	font-size: 32px;
 	text-align: center;
 	// padding-top: 70px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 15px;
-	margin: 0;
+	// padding-bottom: 15px;
 	}
 
 #content-body {
@@ -83,7 +82,6 @@
 	#pitch {
 		display: grid;
 		grid-template-columns: 65% 35%;
-		grid-template-rows: none;
 		grid-template-areas: ' a b ';
 		width: 84%;
 	}
@@ -91,22 +89,32 @@
 	#content-body {
 		grid-column: 1/2;
 		grid-area: a;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
 		margin-top: 150px;
 		border: 1px solid $black;
 		border-radius: 15px;
-		padding: 15px 25px;
+		padding: 15px 25px 0px 25px;
 		color: $black;
 		background-color: $yellow-transparent;
 		margin-right: 16px;
 	}
 
 	#heading {
+		display: flex;
+		flex-direction: column;
 		color: $blue;
-		font-size: 45px;
+		font-size: 32px;
 		text-align: center;
-		padding-bottom: 20px;
+		// padding-bottom: 20px;
 		margin: 0;
 		}
+
+	#topline {
+		display: flex;
+		flex-direction: column;
+	}
 
 	#photo{
 		grid-column: 2/2;
@@ -122,11 +130,18 @@
 		// justify-content: space-evenly;
 		}
 
-	#topsection {
-		text-align: left;
-		}
-
 	#pitch {
 		margin: 0 8% 16px 8%;
+	}
+
+	#home-button {
+		background-color: $blue;
+		border: 0px solid $black;
+		border-radius: 15px;
+		text-align: center;
+		margin: 20px 33%;
+		box-shadow: 2px 2px;
+		justify-items: center;
+		align-self: center;
 	}
 }

@@ -14,7 +14,10 @@ h1 {
 	width: 92%;
 }
 
-
+#testimonial-header {
+	color: $blue;
+	font-size: 32px;
+}
 
 @media only screen and (min-width: 960px) {
 	.testimonial-img {

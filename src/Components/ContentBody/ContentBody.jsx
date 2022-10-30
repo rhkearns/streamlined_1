@@ -11,9 +11,7 @@ const ContentBody = () => {
 		<div id="pitch">
 			<div id="content-body">
 				<h2 id="heading">
-					Operations Consultants and Fractional COOs to optimize your business
-					operations
-				</h2>
+					Operations Consultants and Fractional COOs to optimize your business operations</h2>
 				<div id="topsection">
 					<p class="top-line">
 						We work with business owners and entrepreneurs to get their
@@ -27,8 +25,7 @@ const ContentBody = () => {
 						you are ready. We work remotely allowing us to work with companies
 						wherever they are.
 					</p>
-					</div>
-								<button id="cta-button">
+					<button id="home-button">
 					<a
 						id="link"
 						href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
@@ -38,7 +35,7 @@ const ContentBody = () => {
 						Contact Us
 					</a>
 				</button>
-			
+				</div>
 				</div>
 			<div id='photo'><img src={content} alt="content" id="content" />
 			</div>

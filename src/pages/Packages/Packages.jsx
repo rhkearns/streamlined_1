@@ -26,7 +26,7 @@ const Packages = () => {
 								to focus on what really matters - achieving your goals and
 								finding success!{' '}
 							</p>
-							<button id="package-button">
+							<button class="package-button">
 								<a
 									id="link"
 									href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
@@ -62,15 +62,13 @@ const Packages = () => {
 								with you to determine your needs, prepare the job description,
 								organize applicants, and schedule interviews with candidates.
 							</p>
-							<button id="package-button">
+							<button class="package-button">
 								<a
 									id="link"
 									href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
 									target="_blank"
 									rel="noopener noreferrer"
-								>
-									Ready to invest in your company's future?
-								</a>
+								>Ready to invest in your company's future?</a>
 							</button>
 						</div>
 						<div className="img-div">
@@ -92,7 +90,7 @@ const Packages = () => {
 								We will	also schedule all of the interviews for you. Once you have made the hire, we will ensure that person
 								has all of the tools needed to seamlessly join your team.
 							</p>
-							<button id="package-button">
+							<button class="package-button">
 								<a
 									id="link"
 									href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
@@ -117,7 +115,7 @@ const Packages = () => {
 								there isn't a one size fits all solution for everyone, we will
 								help you find the solutions that are perfect for your business!
 							</p>
-							<button id="package-button">
+							<button class="package-button">
 								<a
 									id="link"
 									href="https://airtable.com/embed/shrggi2IoXGexh59K?backgroundColor=cyan"
