@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Contact.scss';
 // import contactUs from '../../images/contact-us.jpg';
-import techicons from '../../images/tech icons.jpg';
+import workwithus from '../../images/workwithus.jpg';
 
 const Contact = () => {
 	return (
@@ -47,7 +47,7 @@ const Contact = () => {
 					</p>
 				</div>
 				<div className="img-div-details">
-					<img src={techicons} alt="tech" id="tech" />
+					<img src={workwithus} alt="workwithus" id="workwithus" />
 				</div>
 			</div>
 		</div>
