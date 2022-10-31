@@ -43,6 +43,16 @@
 	text-decoration: none;
 }
 
+#topsection{
+	border: 1px solid $black;
+	border-radius: 15px;
+	padding: 15px 25px 0px 25px;
+	color: $black;
+	background-color: $yellow-transparent;
+	// margin-right: 16px;
+	box-shadow: 2px 2px black;
+}
+
 .top-line {
 	color: $black;
 	font-size: 19.2px;
@@ -61,7 +71,7 @@
 	// padding-top: 70px;
 	padding-left: 20px;
 	padding-right: 20px;
-	// padding-bottom: 15px;
+	padding-bottom: 12px;
 	}
 
 #content-body {
