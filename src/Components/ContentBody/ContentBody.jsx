@@ -18,12 +18,12 @@ const ContentBody = () => {
 						We work with business owners and entrepreneurs to get their
 						infrastructure and systems streamlined so they can stay on track and
 						focus on finding success. Whether you are just starting out with a
-						new business or are established but need a technology update or an
+						new business, or are established but need a technology update or an
 						infrustructure overhaul, our team is here to help! Working with
-						Streamlined Partners is a smart short-term investment in your
-						business’ long-term goals. We work on a short term basis and will
+						Streamlined Partners is a smart, short-term investment in your
+						business’ long-term goals. We work on a short-term basis and will
 						even help you hire a full time COO or administrative assistant when
-						you are ready. We work remotely allowing us to work with companies
+						you are ready. We work remotely, allowing us to work with companies
 						wherever they are.
 					</p>
 					<button id="home-button">
