@@ -20,7 +20,7 @@ const ContentBody = () => {
 						infrastructure and systems streamlined so they can stay on track and
 						focus on finding success. Whether you are just starting out with a
 						new business, or are established but need a technology update or an
-						infrustructure overhaul, our team is here to help! Working with
+						infrustructure overhaul, our team is here to help! <br></br>Working with
 						Streamlined Partners is a smart, short-term investment in your
 						business’ long-term goals. We work primarily on short-term contracts to 
 						limit your financial burden. Once you are ready to make a full time hire, 
