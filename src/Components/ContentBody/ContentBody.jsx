@@ -16,7 +16,7 @@ const ContentBody = () => {
 				</h2>
 				<div id="topsection">
 					<p class="top-line">
-						Streamlined Partners works with business owners and entrepreneurs to get their
+						Streamlined Partners works with small business owners and entrepreneurs to get their
 						infrastructure and systems streamlined so they can stay on track and
 						focus on finding success. Whether you are just starting out with a
 						new business, or are established but need a technology update or an
