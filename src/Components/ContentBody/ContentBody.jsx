@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // import { Carousel } from 'react-bootstrap';
 import './ContentBody.scss';
 // import cover_img from '../../images/cover-img.png';
-import Packages from '../../pages/Packages/Packages';
+// import Packages from '../../pages/Packages/Packages';
 // import Background from '../../images/Background6a.png';
 import content from '../../images/content.png';
 
