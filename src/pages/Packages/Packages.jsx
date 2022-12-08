@@ -43,7 +43,7 @@ const Packages = () => {
 								alt="iphone with icons"
 								id="iphone-icons"
 							/>
-							<p id="systemization-price"> Starting at $495</p>
+							{/* <p id="systemization-price"> Starting at $495</p> */}
 						</div>
 					</div>
 					<div id="implementation-package" className="reverse-div">
@@ -81,7 +81,7 @@ const Packages = () => {
 								alt="implementation"
 								id="implementation-image"
 							/>
-							<p id="implementation-price">Starting at $1,995 a month</p>
+							{/* <p id="implementation-price">Starting at $1,995 a month</p> */}
 						</div>
 					</div>
 					<div id="onboarding-package">
@@ -111,7 +111,7 @@ const Packages = () => {
 						</div>
 						<div className="img-div">
 							<img src={onboarding} alt="Onboarding" id="onboarding-image" />
-							<p id="onboarding-price">Starting at $799</p>
+							{/* <p id="onboarding-price">Starting at $799</p> */}
 						</div>
 					</div>
 					<div id="custom-package" className="reverse-div">
