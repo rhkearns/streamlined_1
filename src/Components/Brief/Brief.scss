@@ -1,0 +1,28 @@
+@import '../../common/colors.scss';
+
+#brief-section {
+	border-radius: 15px;
+	padding: 25px 25px 25px 25px;
+	color: $blue;
+	background-color: $yellow-transparent;
+	box-shadow: 2px 2px $black;
+	margin: 35% 8% 10px 8%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+
+@media only screen and (min-width: 960px) {
+	#brief-section {
+		// border: 1px solid $black;
+		border-radius: 15px;
+		padding: 35px 25px 25px 25px;
+		color: $blue;
+		background-color: $yellow-transparent;
+		box-shadow: 2px 2px $black;
+		margin: 12% 8% 10px 8%;
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+	}
+}

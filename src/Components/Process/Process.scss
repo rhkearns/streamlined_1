@@ -1,0 +1,60 @@
+@import '../../common/colors.scss';
+
+.process-step-box {
+  width: 100%;
+  background-color: $yellow-transparent;
+  border-radius: 15px;
+  padding: 20px 25px;
+  box-shadow: 2px 2px $black;
+  margin: 5px 5px 10px 5px;
+}
+
+#process-steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#process-section {
+  text-align: left;
+  margin-top: 15px;
+}
+
+#process-heading {
+  text-align: left;
+  margin: 0 0 10px 10px;
+}
+
+.process-step-description {
+  font-size: 1.4rem;
+  color: $black;
+}
+
+.process-step-number {
+  text-align: center;
+  color: $blue;
+}
+
+#process-steps {
+  display: flex;
+  justify-content: space-around;
+}
+
+#process-paragraph {
+  color: $blue;
+  margin: 0 0 10px 10px;
+}
+
+@media only screen and (min-width: 960px) {
+	.process-step-box {
+		width: 25%;
+	}
+
+	.process-step-description {
+		font-size: 1.1rem;
+	}
+
+  #process-steps {
+    flex-direction: row;
+  }
+}
