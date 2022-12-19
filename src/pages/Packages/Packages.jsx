@@ -20,7 +20,7 @@ const Packages = () => {
 								entrepreneurs succeed. With our{' '}
 								<span className="ital">Systemization Package</span>, we work
 								with you to establish systems and an administrative foundation
-								that is appropriate for you and your business. By setting you up
+								that are appropriate for you and your business. By setting you up
 								with the right tools to track your tasks, manage and communicate
 								with your team, and create an efficient workspace, you are free
 								to focus on what really matters - achieving your goals and
@@ -43,7 +43,7 @@ const Packages = () => {
 								alt="iphone with icons"
 								id="iphone-icons"
 							/>
-							<p id="systemization-price"> Starting at $495</p>
+							{/* <p id="systemization-price"> Starting at $495</p> */}
 						</div>
 					</div>
 					<div id="implementation-package" className="reverse-div">
@@ -54,9 +54,9 @@ const Packages = () => {
 								for the business owner or entrepreneur who needs an extra set of
 								hands but isn't ready to hire a full-time employee just yet. We
 								will be your fractional COO. Our team will meet with you
-								regularly, assist in setting up accountability systems, ensure
+								regularly, assist in setting up accountability systems, ensure that
 								you are getting the most out of the work management programs you
-								use, and any other administrative or operational tasks that
+								use, and take care of any other administrative or operational tasks that
 								arise. You will also get access to our individually tailored
 								templates and our extensive network of freelancers for any
 								specialized project. Once you are ready to hire a full-time
@@ -81,7 +81,7 @@ const Packages = () => {
 								alt="implementation"
 								id="implementation-image"
 							/>
-							<p id="implementation-price">Starting at $1,995 a month</p>
+							{/* <p id="implementation-price">Starting at $1,995 a month</p> */}
 						</div>
 					</div>
 					<div id="onboarding-package">
@@ -92,7 +92,7 @@ const Packages = () => {
 								<span className="ital">Onboarding Package</span>, we will
 								observe your day-to-day processes to create a job description
 								for your ideal candidate. We will organize the incoming
-								applications and send you the prospective candidates that meet
+								applications and forward you the prospective candidates who meet
 								the job qualifications. We will also schedule all of the
 								interviews for you. Once you have made the hire, we will ensure
 								that person has all of the tools needed to seamlessly join your
@@ -111,7 +111,7 @@ const Packages = () => {
 						</div>
 						<div className="img-div">
 							<img src={onboarding} alt="Onboarding" id="onboarding-image" />
-							<p id="onboarding-price">Starting at $799</p>
+							{/* <p id="onboarding-price">Starting at $799</p> */}
 						</div>
 					</div>
 					<div id="custom-package" className="reverse-div">

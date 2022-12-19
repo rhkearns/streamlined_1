@@ -22,7 +22,7 @@ const Contact = () => {
 						storage stress you out?
 					</p>
 					<p>
-						Contact us today to schedule a free consultation where we will sit
+						Contact us today to schedule a free consultation, where we will sit
 						down with you and create a plan based on your needs.
 					</p>
 					<p>

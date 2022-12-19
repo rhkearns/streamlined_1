@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // import { Carousel } from 'react-bootstrap';
 import './ContentBody.scss';
 // import cover_img from '../../images/cover-img.png';
@@ -15,16 +16,16 @@ const ContentBody = () => {
 				</h2>
 				<div id="topsection">
 					<p class="top-line">
-						We work with business owners and entrepreneurs to get their
+						Streamlined Partners works with small business owners and entrepreneurs to get their
 						infrastructure and systems streamlined so they can stay on track and
 						focus on finding success. Whether you are just starting out with a
-						new business or are established but need a technology update or an
-						infrustructure overhaul, our team is here to help! Working with
-						Streamlined Partners is a smart short-term investment in your
-						business’ long-term goals. We work on a short term basis and will
-						even help you hire a full time COO or administrative assistant when
-						you are ready. We work remotely allowing us to work with companies
-						wherever they are.
+						new business, or are established but need a technology update or an
+						infrastructure overhaul, our team is here to help! <br></br><br></br>Working with
+						Streamlined Partners is a smart, short-term investment in your
+						business’ long-term goals. We work primarily on short-term contracts to 
+						limit your financial burden. Once you are ready to make a full time hire, 
+						whether it be a COO or an administrative assistant, our team can help you navigate that process.
+						 Our <Link to={'/packages'}>packages</Link> can be customized to fit your needs. 
 					</p>
 					<button id="home-button">
 					<a

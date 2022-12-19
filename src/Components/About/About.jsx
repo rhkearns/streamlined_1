@@ -10,7 +10,7 @@ const About = () => {
 				<div id="about-blurb">
 					<p>
 						<span className="ital">Streamlined Partners</span> is a boutique
-						consulting and fractional COO firm founded by Samantha Yudin.
+						operations consulting and fractional COO firm founded by Samantha Yudin.
 						Samantha has over a decade of experience working as a project
 						manager and administrative, executive, and personal assistant. She
 						has worked for private clients and companies, including Bang &
