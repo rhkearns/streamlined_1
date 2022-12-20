@@ -12,7 +12,7 @@ const Issues = () => {
         <h1 className='issue-block'>Project Management Software</h1>
         <h1 className='issue-block'>Customer Relationship Management Tools</h1>
         <h1 className='issue-block'>Information Sharing</h1>
-        <h1 className='issue-block'>Cross Channel Organization</h1>
+        <h1 className='issue-block'>Cross-Channel Organization</h1>
         <h1 className='issue-block'>New Hire Prep and Onboarding</h1>
         <h1 className='issue-block'>Goal Tracking</h1>
         <h1 className='issue-block'>And so much more...</h1>

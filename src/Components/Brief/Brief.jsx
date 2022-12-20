@@ -7,8 +7,7 @@ const Brief = () => {
 			<p>
 				A boutique operations consulting firm helping small business owners and
 				entrepreneurs (SBO/E) achieve their business goals by guiding them
-				through all aspects of administration/administrative
-				things/operations/some businessy word.
+				through all aspects of the administration and operational processes.
       </p>
       <p>
         The amount of technology, programs, and tools on the market today can be overwhelming and end up making your day-to-day much more complicated than it needs to be. That's where we come in.
