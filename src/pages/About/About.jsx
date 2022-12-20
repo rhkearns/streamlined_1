@@ -19,7 +19,7 @@ const About = () => {
 				<hr className="about-line" />
 				<p className="about-paragraph" id="paragraph-2">
 					The Streamlined Partners team is ready to work with you and your
-					business.
+					business!
 				</p>
 				<hr className="about-line" />
 				<p className="about-paragraph" id="paragraph-3">
@@ -28,9 +28,9 @@ const About = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Contact us{' '}
+						Contact us
 					</a>{' '}
-					today to schedule your free consultation!
+					today to schedule your free consultation.
 				</p>
 			</div>
 			<img
