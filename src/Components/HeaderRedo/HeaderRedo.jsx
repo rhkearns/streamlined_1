@@ -11,7 +11,7 @@ const HeaderRedo = () => {
 					<Link to="/">Home</Link>
 				</li>
 				<li className='links'>
-					<Link to="/About">About</Link>
+					<Link to="/about">About</Link>
 				</li>
 			</ul>
 			<img src={logo} alt="Streamlined Partners" id="logo" />
