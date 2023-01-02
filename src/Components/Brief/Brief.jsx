@@ -10,7 +10,7 @@ const Brief = () => {
 				through all aspects of the administrative and operational processes.
       </p>
       <p>
-        The amount of technology, programs, and tools on the market today can be overwhelming and end up making your day-to-day unnecessarily complicated. That's where we come in.
+        The amount of technology, programs, and tools on the market today can be overwhelming and make your day-to-day unnecessarily complicated. That's where we come in.
       </p>
       <p>
         We will meet with you, take an in-depth look at your business and practices, and return a detailed, custom-tailored roadmap for your business.
