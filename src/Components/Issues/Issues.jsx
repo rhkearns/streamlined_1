@@ -18,6 +18,7 @@ const Issues = () => {
         <h1 className='issue-block'>And so much more...</h1>
       </div>
     </div>
+    
   )
 }
 

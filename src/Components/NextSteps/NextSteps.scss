@@ -1,0 +1,35 @@
+@import "../../common/colors.scss";
+
+#next-heading {
+  text-align: left;
+  margin: 0 0 10px 10px;
+  color: $blue;
+  padding-top: 25px;
+}
+
+#general-heading {
+  text-align: left;
+  margin: 0 0 10px 0;
+  color: $blue;
+  font: utopia;
+  font-size: 28px;
+}
+
+#next-section {
+  border-radius: 15px;
+	padding: 25px 25px 25px 25px;
+	color: $blue;
+	background-color: $yellow-transparent;
+	box-shadow: 2px 2px $black;
+	margin: 20px 8% 10px 8%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+
+#next-link {
+// text-transform:uppercase;
+font-style: italic;
+}
+
+
