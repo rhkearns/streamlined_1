@@ -10,11 +10,11 @@ const Process = () => {
 				consultation, to tell you more about our background, what we bring 
 				to the table, and ensure we are a good fit to work together. 
 				</p>
-				<p>
+				<p id="process-paragraph">
 				We will then provide you with a proposal, which includes the project rate
 				and timeline.
 				</p>
-			<p>
+			<p id="process-paragraph">
 				Our goal is to work with you to create a custom-tailored plan for your
 				specific business - as no two businesses are exactly alike!
 			</p>
