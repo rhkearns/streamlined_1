@@ -37,9 +37,9 @@ const Process = () => {
 					<h2 className="process-step-number">3</h2>
 					<p className="process-step-description">
 					Implement items outlined in the roadmap on your own or with our assistance!
-					</p> */}
+					</p>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };
