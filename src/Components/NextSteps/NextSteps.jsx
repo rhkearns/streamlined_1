@@ -32,7 +32,8 @@ const NextSteps = () => {
 							{' '}
 							info@streamlinedpartners.com
 						</a>.
-					</p></p>
+					</p></p></div>
+					<div id="next-section">
 					<h2 id="general-heading">Project Management</h2>
 					<p id="next-paragraph">
 						Streamlined Partners services are also available on a project basis. 
