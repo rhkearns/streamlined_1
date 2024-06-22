@@ -3,8 +3,9 @@ import './Process.scss';
 
 const Process = () => {
 	return (
-		<div id="next-section">
-			<h1 id="process-heading">Our Process</h1>
+		<div id="next-step-box">
+      <h1 id='next-heading'>Our Process</h1>
+	  	<div id="next-section">
 			<p id="general-paragraph">
 				Before commiting to our services, we will meet with you for a free 
 				consultation, to tell you more about our background, what we bring 
