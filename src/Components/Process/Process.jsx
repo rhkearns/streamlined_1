@@ -15,7 +15,8 @@ const Process = () => {
 				<p id="next-paragraph">
 				We will then provide you with a proposal, which includes the project rate
 				and timeline.
-				</p>
+				</p></div>
+				<div id="next-section">
 			<p id="next-paragraph">
 				Our goal is to work with you to create a custom-tailored plan for your
 				specific business - as no two businesses are exactly alike!
