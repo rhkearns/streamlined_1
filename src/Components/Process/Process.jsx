@@ -5,17 +5,18 @@ const Process = () => {
 	return (
 		<div id="next-step-box">
       <h1 id='next-heading'>Our Process</h1>
+
 	  	<div id="next-section">
-			<p id="general-paragraph">
+			<p id="next-paragraph">
 				Before commiting to our services, we will meet with you for a free 
 				consultation, to tell you more about our background, what we bring 
 				to the table, and ensure we are a good fit to work together. 
 				</p>
-				<p id="process-paragraph">
+				<p id="next-paragraph">
 				We will then provide you with a proposal, which includes the project rate
 				and timeline.
 				</p>
-			<p id="process-paragraph">
+			<p id="next-paragraph">
 				Our goal is to work with you to create a custom-tailored plan for your
 				specific business - as no two businesses are exactly alike!
 			</p>
