@@ -10,7 +10,7 @@ const NextSteps = () => {
         <h2 id="general-heading">General Consulting</h2>
         <p id="next-paragraph">After an itial plan is created,
 			{/* the completion and implementation of the roadmap,  */}
-			Streamlined Partners is available for general operations and 
+			 Streamlined Partners is available for general operations and 
 			administrative consulting. As the needs of every client are 
 			different, our consulting packages are customized for each 
 			small business or entrepreneur. <p>
