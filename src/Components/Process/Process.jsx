@@ -3,10 +3,11 @@ import './Process.scss';
 
 const Process = () => {
 	return (
-		<div id="next-step-box">
-			<h1 id='next-heading'>Coming Soon!</h1>
-      {/* <h1 id='next-heading'>Our Process</h1> */}
 	
+		<div id="next-step-box">
+	<h1 id='next-heading'>Coming Soon!</h1>
+      {/* <h1 id='next-heading'>Our Process</h1> */}
+	<div id="next-section">We are working hard behind the scenes to get Streamlined Partners up and running. Stay tuned!</div>
 
 	  	{/* <div id="next-section">
 			<p id="next-paragraph">
