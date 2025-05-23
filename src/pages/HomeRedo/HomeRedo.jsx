@@ -10,10 +10,11 @@ const HomeRedo = () => {
 
   return (
     <div>
-      <Brief />
-      <Process />
+      <h1>Coming soon!</h1>
+      {/* <Brief /> */}
+      {/* <Process /> */}
       {/* <Issues /> */}
-      <NextSteps />
+      {/* <NextSteps /> */}
       {/* {!isMobile && <Testimonials id="testimonials-to-hide" />} */}
     </div>
   )
