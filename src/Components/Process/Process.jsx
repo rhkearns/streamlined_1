@@ -4,9 +4,11 @@ import './Process.scss';
 const Process = () => {
 	return (
 		<div id="next-step-box">
-      <h1 id='next-heading'>Our Process</h1>
+			<h1 id='next-heading'>Coming Soon!</h1>
+      {/* <h1 id='next-heading'>Our Process</h1> */}
+	
 
-	  	<div id="next-section">
+	  	{/* <div id="next-section">
 			<p id="next-paragraph">
 				Before commiting to our services, we will meet with you for a free 
 				consultation, to tell you more about our background, what we bring 
@@ -20,7 +22,7 @@ const Process = () => {
 			<p id="next-paragraph">
 				Our goal is to work with you to create a custom-tailored plan for your
 				specific business - as no two businesses are exactly alike!
-			</p>
+			</p> */}
 			{/* <h1 id="process-heading">Administrative Roadmap:</h1>
 			<div id="process-steps">
 				<div className="process-step-box" id="process-step-1">
@@ -43,7 +45,7 @@ const Process = () => {
 					</p>
 				</div>
 			</div> */}
-		</div>
+		{/* </div> */}
 		</div>
 	);
 };
