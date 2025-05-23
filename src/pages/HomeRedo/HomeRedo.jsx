@@ -8,9 +8,10 @@ import React from 'react'
 const HomeRedo = () => {
   // const isMobile = window.screen.width < 600;
 
+   <h1>Coming soon!</h1>
+
   return (
     <div>
-      <h1>Coming soon!</h1>
       {/* <Brief /> */}
       {/* <Process /> */}
       {/* <Issues /> */}
