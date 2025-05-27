@@ -8,7 +8,7 @@ const Process = () => {
       {<h1 id='next-heading'>Coming Soon</h1> }
 		<div id="next-section">
 			<p id="next-paragraph">
-				We are working hard behind the scenes to get Streamlined Partners up and running. Stay tuned! 
+				Stay tuned for more information!
 				</p>
 				</div>
 
